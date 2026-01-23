@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3000 高频词</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app-header">
+        <div class="title-group">
+          <h1>3000 高频词</h1>
+          <p class="subtitle">按批次学习，记录进度与备注</p>
+        </div>
+        <div class="summary">
+          <div class="summary-item">
+            <span class="label">总进度</span>
+            <span class="value" id="overallProgress">0 / 0</span>
+          </div>
+          <button class="primary-btn" id="continueBtn">继续上次批次</button>
+        </div>
+      </header>
+
+      <main class="app-main">
+        <section class="batch-section">
+          <div class="section-header">
+            <h2>批次列表</h2>
+            <p class="section-desc">选择一个批次开始学习</p>
+          </div>
+          <div class="batch-list" id="batchList"></div>
+        </section>
+
+        <section class="detail-section" id="detailSection">
+          <div class="detail-header">
+            <div class="detail-title">
+              <h2 id="batchTitle">请选择批次</h2>
+              <div class="detail-meta">
+                <span id="batchRange">—</span>
+                <span id="batchProgress">—</span>
+              </div>
+            </div>
+            <div class="filters" id="filters">
+              <button data-filter="all" class="filter-btn is-active">
+                全部
+              </button>
+              <button data-filter="unknown" class="filter-btn">
+                未掌握
+              </button>
+              <button data-filter="known" class="filter-btn">已掌握</button>
+              <button data-filter="noted" class="filter-btn">有备注</button>
+            </div>
+          </div>
+
+          <div class="detail-content">
+            <div class="word-list" id="wordList">
+              <div class="placeholder">请选择批次后查看词表</div>
+            </div>
+            <aside class="word-panel" id="wordPanel">
+              <div class="panel-empty">点击单词查看详情</div>
+              <div class="panel-content is-hidden">
+                <h3 id="wordText">—</h3>
+                <p class="panel-meta" id="wordBatch">—</p>
+                <button class="secondary-btn" id="toggleKnownBtn">
+                  标记已掌握
+                </button>
+                <label class="note-label" for="wordNote">备注</label>
+                <textarea
+                  id="wordNote"
+                  rows="6"
+                  placeholder="写下你的记忆点或例句"
+                ></textarea>
+              </div>
+            </aside>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

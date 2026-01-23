@@ -1,0 +1,7628 @@
+{
+  "batches": [
+    {
+      "id": "batch-01",
+      "title": "第 1 批",
+      "range": "Top 1–250",
+      "words": [
+        {
+          "id": "batch-01-1",
+          "text": "the"
+        },
+        {
+          "id": "batch-01-2",
+          "text": "be"
+        },
+        {
+          "id": "batch-01-3",
+          "text": "and"
+        },
+        {
+          "id": "batch-01-4",
+          "text": "of"
+        },
+        {
+          "id": "batch-01-5",
+          "text": "to"
+        },
+        {
+          "id": "batch-01-6",
+          "text": "a"
+        },
+        {
+          "id": "batch-01-7",
+          "text": "in"
+        },
+        {
+          "id": "batch-01-8",
+          "text": "that"
+        },
+        {
+          "id": "batch-01-9",
+          "text": "have"
+        },
+        {
+          "id": "batch-01-10",
+          "text": "i"
+        },
+        {
+          "id": "batch-01-11",
+          "text": "it"
+        },
+        {
+          "id": "batch-01-12",
+          "text": "for"
+        },
+        {
+          "id": "batch-01-13",
+          "text": "not"
+        },
+        {
+          "id": "batch-01-14",
+          "text": "on"
+        },
+        {
+          "id": "batch-01-15",
+          "text": "with"
+        },
+        {
+          "id": "batch-01-16",
+          "text": "he"
+        },
+        {
+          "id": "batch-01-17",
+          "text": "as"
+        },
+        {
+          "id": "batch-01-18",
+          "text": "you"
+        },
+        {
+          "id": "batch-01-19",
+          "text": "do"
+        },
+        {
+          "id": "batch-01-20",
+          "text": "at"
+        },
+        {
+          "id": "batch-01-21",
+          "text": "this"
+        },
+        {
+          "id": "batch-01-22",
+          "text": "but"
+        },
+        {
+          "id": "batch-01-23",
+          "text": "his"
+        },
+        {
+          "id": "batch-01-24",
+          "text": "by"
+        },
+        {
+          "id": "batch-01-25",
+          "text": "from"
+        },
+        {
+          "id": "batch-01-26",
+          "text": "they"
+        },
+        {
+          "id": "batch-01-27",
+          "text": "we"
+        },
+        {
+          "id": "batch-01-28",
+          "text": "say"
+        },
+        {
+          "id": "batch-01-29",
+          "text": "her"
+        },
+        {
+          "id": "batch-01-30",
+          "text": "she"
+        },
+        {
+          "id": "batch-01-31",
+          "text": "or"
+        },
+        {
+          "id": "batch-01-32",
+          "text": "an"
+        },
+        {
+          "id": "batch-01-33",
+          "text": "will"
+        },
+        {
+          "id": "batch-01-34",
+          "text": "my"
+        },
+        {
+          "id": "batch-01-35",
+          "text": "one"
+        },
+        {
+          "id": "batch-01-36",
+          "text": "all"
+        },
+        {
+          "id": "batch-01-37",
+          "text": "would"
+        },
+        {
+          "id": "batch-01-38",
+          "text": "there"
+        },
+        {
+          "id": "batch-01-39",
+          "text": "their"
+        },
+        {
+          "id": "batch-01-40",
+          "text": "is"
+        },
+        {
+          "id": "batch-01-41",
+          "text": "are"
+        },
+        {
+          "id": "batch-01-42",
+          "text": "was"
+        },
+        {
+          "id": "batch-01-43",
+          "text": "were"
+        },
+        {
+          "id": "batch-01-44",
+          "text": "been"
+        },
+        {
+          "id": "batch-01-45",
+          "text": "being"
+        },
+        {
+          "id": "batch-01-46",
+          "text": "can"
+        },
+        {
+          "id": "batch-01-47",
+          "text": "could"
+        },
+        {
+          "id": "batch-01-48",
+          "text": "may"
+        },
+        {
+          "id": "batch-01-49",
+          "text": "might"
+        },
+        {
+          "id": "batch-01-50",
+          "text": "should"
+        },
+        {
+          "id": "batch-01-51",
+          "text": "shall"
+        },
+        {
+          "id": "batch-01-52",
+          "text": "must"
+        },
+        {
+          "id": "batch-01-53",
+          "text": "if"
+        },
+        {
+          "id": "batch-01-54",
+          "text": "then"
+        },
+        {
+          "id": "batch-01-55",
+          "text": "else"
+        },
+        {
+          "id": "batch-01-56",
+          "text": "when"
+        },
+        {
+          "id": "batch-01-57",
+          "text": "where"
+        },
+        {
+          "id": "batch-01-58",
+          "text": "why"
+        },
+        {
+          "id": "batch-01-59",
+          "text": "how"
+        },
+        {
+          "id": "batch-01-60",
+          "text": "what"
+        },
+        {
+          "id": "batch-01-61",
+          "text": "which"
+        },
+        {
+          "id": "batch-01-62",
+          "text": "who"
+        },
+        {
+          "id": "batch-01-63",
+          "text": "whom"
+        },
+        {
+          "id": "batch-01-64",
+          "text": "whose"
+        },
+        {
+          "id": "batch-01-65",
+          "text": "because"
+        },
+        {
+          "id": "batch-01-66",
+          "text": "while"
+        },
+        {
+          "id": "batch-01-67",
+          "text": "before"
+        },
+        {
+          "id": "batch-01-68",
+          "text": "after"
+        },
+        {
+          "id": "batch-01-69",
+          "text": "during"
+        },
+        {
+          "id": "batch-01-70",
+          "text": "about"
+        },
+        {
+          "id": "batch-01-71",
+          "text": "over"
+        },
+        {
+          "id": "batch-01-72",
+          "text": "under"
+        },
+        {
+          "id": "batch-01-73",
+          "text": "again"
+        },
+        {
+          "id": "batch-01-74",
+          "text": "more"
+        },
+        {
+          "id": "batch-01-75",
+          "text": "most"
+        },
+        {
+          "id": "batch-01-76",
+          "text": "some"
+        },
+        {
+          "id": "batch-01-77",
+          "text": "any"
+        },
+        {
+          "id": "batch-01-78",
+          "text": "each"
+        },
+        {
+          "id": "batch-01-79",
+          "text": "few"
+        },
+        {
+          "id": "batch-01-80",
+          "text": "many"
+        },
+        {
+          "id": "batch-01-81",
+          "text": "much"
+        },
+        {
+          "id": "batch-01-82",
+          "text": "such"
+        },
+        {
+          "id": "batch-01-83",
+          "text": "no"
+        },
+        {
+          "id": "batch-01-84",
+          "text": "yes"
+        },
+        {
+          "id": "batch-01-85",
+          "text": "very"
+        },
+        {
+          "id": "batch-01-86",
+          "text": "just"
+        },
+        {
+          "id": "batch-01-87",
+          "text": "also"
+        },
+        {
+          "id": "batch-01-88",
+          "text": "even"
+        },
+        {
+          "id": "batch-01-89",
+          "text": "still"
+        },
+        {
+          "id": "batch-01-90",
+          "text": "only"
+        },
+        {
+          "id": "batch-01-91",
+          "text": "own"
+        },
+        {
+          "id": "batch-01-92",
+          "text": "same"
+        },
+        {
+          "id": "batch-01-93",
+          "text": "other"
+        },
+        {
+          "id": "batch-01-94",
+          "text": "another"
+        },
+        {
+          "id": "batch-01-95",
+          "text": "both"
+        },
+        {
+          "id": "batch-01-96",
+          "text": "either"
+        },
+        {
+          "id": "batch-01-97",
+          "text": "neither"
+        },
+        {
+          "id": "batch-01-98",
+          "text": "here"
+        },
+        {
+          "id": "batch-01-99",
+          "text": "now"
+        },
+        {
+          "id": "batch-01-100",
+          "text": "today"
+        },
+        {
+          "id": "batch-01-101",
+          "text": "tomorrow"
+        },
+        {
+          "id": "batch-01-102",
+          "text": "yesterday"
+        },
+        {
+          "id": "batch-01-103",
+          "text": "always"
+        },
+        {
+          "id": "batch-01-104",
+          "text": "often"
+        },
+        {
+          "id": "batch-01-105",
+          "text": "sometimes"
+        },
+        {
+          "id": "batch-01-106",
+          "text": "never"
+        },
+        {
+          "id": "batch-01-107",
+          "text": "ever"
+        },
+        {
+          "id": "batch-01-108",
+          "text": "once"
+        },
+        {
+          "id": "batch-01-109",
+          "text": "make"
+        },
+        {
+          "id": "batch-01-110",
+          "text": "go"
+        },
+        {
+          "id": "batch-01-111",
+          "text": "come"
+        },
+        {
+          "id": "batch-01-112",
+          "text": "take"
+        },
+        {
+          "id": "batch-01-113",
+          "text": "give"
+        },
+        {
+          "id": "batch-01-114",
+          "text": "get"
+        },
+        {
+          "id": "batch-01-115",
+          "text": "put"
+        },
+        {
+          "id": "batch-01-116",
+          "text": "let"
+        },
+        {
+          "id": "batch-01-117",
+          "text": "keep"
+        },
+        {
+          "id": "batch-01-118",
+          "text": "begin"
+        },
+        {
+          "id": "batch-01-119",
+          "text": "seem"
+        },
+        {
+          "id": "batch-01-120",
+          "text": "help"
+        },
+        {
+          "id": "batch-01-121",
+          "text": "talk"
+        },
+        {
+          "id": "batch-01-122",
+          "text": "turn"
+        },
+        {
+          "id": "batch-01-123",
+          "text": "start"
+        },
+        {
+          "id": "batch-01-124",
+          "text": "show"
+        },
+        {
+          "id": "batch-01-125",
+          "text": "hear"
+        },
+        {
+          "id": "batch-01-126",
+          "text": "play"
+        },
+        {
+          "id": "batch-01-127",
+          "text": "run"
+        },
+        {
+          "id": "batch-01-128",
+          "text": "move"
+        },
+        {
+          "id": "batch-01-129",
+          "text": "live"
+        },
+        {
+          "id": "batch-01-130",
+          "text": "believe"
+        },
+        {
+          "id": "batch-01-131",
+          "text": "bring"
+        },
+        {
+          "id": "batch-01-132",
+          "text": "happen"
+        },
+        {
+          "id": "batch-01-133",
+          "text": "write"
+        },
+        {
+          "id": "batch-01-134",
+          "text": "provide"
+        },
+        {
+          "id": "batch-01-135",
+          "text": "sit"
+        },
+        {
+          "id": "batch-01-136",
+          "text": "stand"
+        },
+        {
+          "id": "batch-01-137",
+          "text": "lose"
+        },
+        {
+          "id": "batch-01-138",
+          "text": "pay"
+        },
+        {
+          "id": "batch-01-139",
+          "text": "meet"
+        },
+        {
+          "id": "batch-01-140",
+          "text": "include"
+        },
+        {
+          "id": "batch-01-141",
+          "text": "continue"
+        },
+        {
+          "id": "batch-01-142",
+          "text": "set"
+        },
+        {
+          "id": "batch-01-143",
+          "text": "learn"
+        },
+        {
+          "id": "batch-01-144",
+          "text": "change"
+        },
+        {
+          "id": "batch-01-145",
+          "text": "lead"
+        },
+        {
+          "id": "batch-01-146",
+          "text": "understand"
+        },
+        {
+          "id": "batch-01-147",
+          "text": "watch"
+        },
+        {
+          "id": "batch-01-148",
+          "text": "follow"
+        },
+        {
+          "id": "batch-01-149",
+          "text": "stop"
+        },
+        {
+          "id": "batch-01-150",
+          "text": "create"
+        },
+        {
+          "id": "batch-01-151",
+          "text": "speak"
+        },
+        {
+          "id": "batch-01-152",
+          "text": "read"
+        },
+        {
+          "id": "batch-01-153",
+          "text": "allow"
+        },
+        {
+          "id": "batch-01-154",
+          "text": "add"
+        },
+        {
+          "id": "batch-01-155",
+          "text": "spend"
+        },
+        {
+          "id": "batch-01-156",
+          "text": "grow"
+        },
+        {
+          "id": "batch-01-157",
+          "text": "open"
+        },
+        {
+          "id": "batch-01-158",
+          "text": "walk"
+        },
+        {
+          "id": "batch-01-159",
+          "text": "win"
+        },
+        {
+          "id": "batch-01-160",
+          "text": "offer"
+        },
+        {
+          "id": "batch-01-161",
+          "text": "remember"
+        },
+        {
+          "id": "batch-01-162",
+          "text": "love"
+        },
+        {
+          "id": "batch-01-163",
+          "text": "consider"
+        },
+        {
+          "id": "batch-01-164",
+          "text": "appear"
+        },
+        {
+          "id": "batch-01-165",
+          "text": "buy"
+        },
+        {
+          "id": "batch-01-166",
+          "text": "wait"
+        },
+        {
+          "id": "batch-01-167",
+          "text": "serve"
+        },
+        {
+          "id": "batch-01-168",
+          "text": "die"
+        },
+        {
+          "id": "batch-01-169",
+          "text": "send"
+        },
+        {
+          "id": "batch-01-170",
+          "text": "expect"
+        },
+        {
+          "id": "batch-01-171",
+          "text": "build"
+        },
+        {
+          "id": "batch-01-172",
+          "text": "stay"
+        },
+        {
+          "id": "batch-01-173",
+          "text": "fall"
+        },
+        {
+          "id": "batch-01-174",
+          "text": "cut"
+        },
+        {
+          "id": "batch-01-175",
+          "text": "reach"
+        },
+        {
+          "id": "batch-01-176",
+          "text": "kill"
+        },
+        {
+          "id": "batch-01-177",
+          "text": "remain"
+        },
+        {
+          "id": "batch-01-178",
+          "text": "suggest"
+        },
+        {
+          "id": "batch-01-179",
+          "text": "raise"
+        },
+        {
+          "id": "batch-01-180",
+          "text": "pass"
+        },
+        {
+          "id": "batch-01-181",
+          "text": "sell"
+        },
+        {
+          "id": "batch-01-182",
+          "text": "require"
+        },
+        {
+          "id": "batch-01-183",
+          "text": "report"
+        },
+        {
+          "id": "batch-01-184",
+          "text": "decide"
+        },
+        {
+          "id": "batch-01-185",
+          "text": "pull"
+        },
+        {
+          "id": "batch-01-186",
+          "text": "return"
+        },
+        {
+          "id": "batch-01-187",
+          "text": "explain"
+        },
+        {
+          "id": "batch-01-188",
+          "text": "hope"
+        },
+        {
+          "id": "batch-01-189",
+          "text": "develop"
+        },
+        {
+          "id": "batch-01-190",
+          "text": "carry"
+        },
+        {
+          "id": "batch-01-191",
+          "text": "break"
+        },
+        {
+          "id": "batch-01-192",
+          "text": "receive"
+        },
+        {
+          "id": "batch-01-193",
+          "text": "agree"
+        },
+        {
+          "id": "batch-01-194",
+          "text": "support"
+        },
+        {
+          "id": "batch-01-195",
+          "text": "hit"
+        },
+        {
+          "id": "batch-01-196",
+          "text": "produce"
+        },
+        {
+          "id": "batch-01-197",
+          "text": "eat"
+        },
+        {
+          "id": "batch-01-198",
+          "text": "cover"
+        },
+        {
+          "id": "batch-01-199",
+          "text": "catch"
+        },
+        {
+          "id": "batch-01-200",
+          "text": "draw"
+        },
+        {
+          "id": "batch-01-201",
+          "text": "choose"
+        },
+        {
+          "id": "batch-01-202",
+          "text": "cause"
+        },
+        {
+          "id": "batch-01-203",
+          "text": "point"
+        },
+        {
+          "id": "batch-01-204",
+          "text": "listen"
+        },
+        {
+          "id": "batch-01-205",
+          "text": "six"
+        },
+        {
+          "id": "batch-01-206",
+          "text": "five"
+        },
+        {
+          "id": "batch-01-207",
+          "text": "four"
+        },
+        {
+          "id": "batch-01-208",
+          "text": "three"
+        },
+        {
+          "id": "batch-01-209",
+          "text": "two"
+        },
+        {
+          "id": "batch-01-210",
+          "text": "ten"
+        },
+        {
+          "id": "batch-01-211",
+          "text": "hundred"
+        },
+        {
+          "id": "batch-01-212",
+          "text": "thousand"
+        }
+      ]
+    },
+    {
+      "id": "batch-02",
+      "title": "第 2 批",
+      "range": "约 Top 251–500",
+      "words": [
+        {
+          "id": "batch-02-1",
+          "text": "know"
+        },
+        {
+          "id": "batch-02-2",
+          "text": "think"
+        },
+        {
+          "id": "batch-02-3",
+          "text": "see"
+        },
+        {
+          "id": "batch-02-4",
+          "text": "look"
+        },
+        {
+          "id": "batch-02-5",
+          "text": "want"
+        },
+        {
+          "id": "batch-02-6",
+          "text": "use"
+        },
+        {
+          "id": "batch-02-7",
+          "text": "find"
+        },
+        {
+          "id": "batch-02-8",
+          "text": "tell"
+        },
+        {
+          "id": "batch-02-9",
+          "text": "work"
+        },
+        {
+          "id": "batch-02-10",
+          "text": "try"
+        },
+        {
+          "id": "batch-02-11",
+          "text": "ask"
+        },
+        {
+          "id": "batch-02-12",
+          "text": "need"
+        },
+        {
+          "id": "batch-02-13",
+          "text": "feel"
+        },
+        {
+          "id": "batch-02-14",
+          "text": "become"
+        },
+        {
+          "id": "batch-02-15",
+          "text": "leave"
+        },
+        {
+          "id": "batch-02-16",
+          "text": "call"
+        },
+        {
+          "id": "batch-02-17",
+          "text": "keep"
+        },
+        {
+          "id": "batch-02-18",
+          "text": "hold"
+        },
+        {
+          "id": "batch-02-19",
+          "text": "belong"
+        },
+        {
+          "id": "batch-02-20",
+          "text": "seem"
+        },
+        {
+          "id": "batch-02-21",
+          "text": "hear"
+        },
+        {
+          "id": "batch-02-22",
+          "text": "help"
+        },
+        {
+          "id": "batch-02-23",
+          "text": "talk"
+        },
+        {
+          "id": "batch-02-24",
+          "text": "turn"
+        },
+        {
+          "id": "batch-02-25",
+          "text": "start"
+        },
+        {
+          "id": "batch-02-26",
+          "text": "show"
+        },
+        {
+          "id": "batch-02-27",
+          "text": "play"
+        },
+        {
+          "id": "batch-02-28",
+          "text": "run"
+        },
+        {
+          "id": "batch-02-29",
+          "text": "move"
+        },
+        {
+          "id": "batch-02-30",
+          "text": "live"
+        },
+        {
+          "id": "batch-02-31",
+          "text": "believe"
+        },
+        {
+          "id": "batch-02-32",
+          "text": "bring"
+        },
+        {
+          "id": "batch-02-33",
+          "text": "happen"
+        },
+        {
+          "id": "batch-02-34",
+          "text": "write"
+        },
+        {
+          "id": "batch-02-35",
+          "text": "provide"
+        },
+        {
+          "id": "batch-02-36",
+          "text": "sit"
+        },
+        {
+          "id": "batch-02-37",
+          "text": "stand"
+        },
+        {
+          "id": "batch-02-38",
+          "text": "lose"
+        },
+        {
+          "id": "batch-02-39",
+          "text": "pay"
+        },
+        {
+          "id": "batch-02-40",
+          "text": "meet"
+        },
+        {
+          "id": "batch-02-41",
+          "text": "include"
+        },
+        {
+          "id": "batch-02-42",
+          "text": "continue"
+        },
+        {
+          "id": "batch-02-43",
+          "text": "set"
+        },
+        {
+          "id": "batch-02-44",
+          "text": "learn"
+        },
+        {
+          "id": "batch-02-45",
+          "text": "change"
+        },
+        {
+          "id": "batch-02-46",
+          "text": "lead"
+        },
+        {
+          "id": "batch-02-47",
+          "text": "understand"
+        },
+        {
+          "id": "batch-02-48",
+          "text": "watch"
+        },
+        {
+          "id": "batch-02-49",
+          "text": "follow"
+        },
+        {
+          "id": "batch-02-50",
+          "text": "stop"
+        },
+        {
+          "id": "batch-02-51",
+          "text": "create"
+        },
+        {
+          "id": "batch-02-52",
+          "text": "speak"
+        },
+        {
+          "id": "batch-02-53",
+          "text": "read"
+        },
+        {
+          "id": "batch-02-54",
+          "text": "allow"
+        },
+        {
+          "id": "batch-02-55",
+          "text": "add"
+        },
+        {
+          "id": "batch-02-56",
+          "text": "spend"
+        },
+        {
+          "id": "batch-02-57",
+          "text": "grow"
+        },
+        {
+          "id": "batch-02-58",
+          "text": "open"
+        },
+        {
+          "id": "batch-02-59",
+          "text": "walk"
+        },
+        {
+          "id": "batch-02-60",
+          "text": "win"
+        },
+        {
+          "id": "batch-02-61",
+          "text": "offer"
+        },
+        {
+          "id": "batch-02-62",
+          "text": "remember"
+        },
+        {
+          "id": "batch-02-63",
+          "text": "love"
+        },
+        {
+          "id": "batch-02-64",
+          "text": "consider"
+        },
+        {
+          "id": "batch-02-65",
+          "text": "appear"
+        },
+        {
+          "id": "batch-02-66",
+          "text": "buy"
+        },
+        {
+          "id": "batch-02-67",
+          "text": "wait"
+        },
+        {
+          "id": "batch-02-68",
+          "text": "serve"
+        },
+        {
+          "id": "batch-02-69",
+          "text": "die"
+        },
+        {
+          "id": "batch-02-70",
+          "text": "send"
+        },
+        {
+          "id": "batch-02-71",
+          "text": "expect"
+        },
+        {
+          "id": "batch-02-72",
+          "text": "build"
+        },
+        {
+          "id": "batch-02-73",
+          "text": "stay"
+        },
+        {
+          "id": "batch-02-74",
+          "text": "fall"
+        },
+        {
+          "id": "batch-02-75",
+          "text": "cut"
+        },
+        {
+          "id": "batch-02-76",
+          "text": "reach"
+        },
+        {
+          "id": "batch-02-77",
+          "text": "kill"
+        },
+        {
+          "id": "batch-02-78",
+          "text": "remain"
+        },
+        {
+          "id": "batch-02-79",
+          "text": "suggest"
+        },
+        {
+          "id": "batch-02-80",
+          "text": "raise"
+        },
+        {
+          "id": "batch-02-81",
+          "text": "pass"
+        },
+        {
+          "id": "batch-02-82",
+          "text": "sell"
+        },
+        {
+          "id": "batch-02-83",
+          "text": "require"
+        },
+        {
+          "id": "batch-02-84",
+          "text": "report"
+        },
+        {
+          "id": "batch-02-85",
+          "text": "decide"
+        },
+        {
+          "id": "batch-02-86",
+          "text": "pull"
+        },
+        {
+          "id": "batch-02-87",
+          "text": "return"
+        },
+        {
+          "id": "batch-02-88",
+          "text": "explain"
+        },
+        {
+          "id": "batch-02-89",
+          "text": "hope"
+        },
+        {
+          "id": "batch-02-90",
+          "text": "develop"
+        },
+        {
+          "id": "batch-02-91",
+          "text": "carry"
+        },
+        {
+          "id": "batch-02-92",
+          "text": "break"
+        },
+        {
+          "id": "batch-02-93",
+          "text": "receive"
+        },
+        {
+          "id": "batch-02-94",
+          "text": "agree"
+        },
+        {
+          "id": "batch-02-95",
+          "text": "support"
+        },
+        {
+          "id": "batch-02-96",
+          "text": "hit"
+        },
+        {
+          "id": "batch-02-97",
+          "text": "produce"
+        },
+        {
+          "id": "batch-02-98",
+          "text": "eat"
+        },
+        {
+          "id": "batch-02-99",
+          "text": "cover"
+        },
+        {
+          "id": "batch-02-100",
+          "text": "catch"
+        },
+        {
+          "id": "batch-02-101",
+          "text": "draw"
+        },
+        {
+          "id": "batch-02-102",
+          "text": "choose"
+        },
+        {
+          "id": "batch-02-103",
+          "text": "cause"
+        },
+        {
+          "id": "batch-02-104",
+          "text": "point"
+        },
+        {
+          "id": "batch-02-105",
+          "text": "listen"
+        },
+        {
+          "id": "batch-02-106",
+          "text": "man"
+        },
+        {
+          "id": "batch-02-107",
+          "text": "woman"
+        },
+        {
+          "id": "batch-02-108",
+          "text": "people"
+        },
+        {
+          "id": "batch-02-109",
+          "text": "person"
+        },
+        {
+          "id": "batch-02-110",
+          "text": "child"
+        },
+        {
+          "id": "batch-02-111",
+          "text": "children"
+        },
+        {
+          "id": "batch-02-112",
+          "text": "family"
+        },
+        {
+          "id": "batch-02-113",
+          "text": "friend"
+        },
+        {
+          "id": "batch-02-114",
+          "text": "friends"
+        },
+        {
+          "id": "batch-02-115",
+          "text": "group"
+        },
+        {
+          "id": "batch-02-116",
+          "text": "member"
+        },
+        {
+          "id": "batch-02-117",
+          "text": "team"
+        },
+        {
+          "id": "batch-02-118",
+          "text": "company"
+        },
+        {
+          "id": "batch-02-119",
+          "text": "government"
+        },
+        {
+          "id": "batch-02-120",
+          "text": "community"
+        },
+        {
+          "id": "batch-02-121",
+          "text": "society"
+        },
+        {
+          "id": "batch-02-122",
+          "text": "public"
+        },
+        {
+          "id": "batch-02-123",
+          "text": "everyone"
+        },
+        {
+          "id": "batch-02-124",
+          "text": "someone"
+        },
+        {
+          "id": "batch-02-125",
+          "text": "anyone"
+        },
+        {
+          "id": "batch-02-126",
+          "text": "nobody"
+        },
+        {
+          "id": "batch-02-127",
+          "text": "time"
+        },
+        {
+          "id": "batch-02-128",
+          "text": "day"
+        },
+        {
+          "id": "batch-02-129",
+          "text": "week"
+        },
+        {
+          "id": "batch-02-130",
+          "text": "month"
+        },
+        {
+          "id": "batch-02-131",
+          "text": "year"
+        },
+        {
+          "id": "batch-02-132",
+          "text": "life"
+        },
+        {
+          "id": "batch-02-133",
+          "text": "world"
+        },
+        {
+          "id": "batch-02-134",
+          "text": "home"
+        },
+        {
+          "id": "batch-02-135",
+          "text": "house"
+        },
+        {
+          "id": "batch-02-136",
+          "text": "room"
+        },
+        {
+          "id": "batch-02-137",
+          "text": "school"
+        },
+        {
+          "id": "batch-02-138",
+          "text": "student"
+        },
+        {
+          "id": "batch-02-139",
+          "text": "teacher"
+        },
+        {
+          "id": "batch-02-140",
+          "text": "job"
+        },
+        {
+          "id": "batch-02-141",
+          "text": "business"
+        },
+        {
+          "id": "batch-02-142",
+          "text": "office"
+        },
+        {
+          "id": "batch-02-143",
+          "text": "place"
+        },
+        {
+          "id": "batch-02-144",
+          "text": "city"
+        },
+        {
+          "id": "batch-02-145",
+          "text": "country"
+        },
+        {
+          "id": "batch-02-146",
+          "text": "state"
+        },
+        {
+          "id": "batch-02-147",
+          "text": "area"
+        },
+        {
+          "id": "batch-02-148",
+          "text": "street"
+        },
+        {
+          "id": "batch-02-149",
+          "text": "door"
+        },
+        {
+          "id": "batch-02-150",
+          "text": "window"
+        },
+        {
+          "id": "batch-02-151",
+          "text": "table"
+        },
+        {
+          "id": "batch-02-152",
+          "text": "chair"
+        },
+        {
+          "id": "batch-02-153",
+          "text": "bed"
+        },
+        {
+          "id": "batch-02-154",
+          "text": "food"
+        },
+        {
+          "id": "batch-02-155",
+          "text": "water"
+        },
+        {
+          "id": "batch-02-156",
+          "text": "money"
+        },
+        {
+          "id": "batch-02-157",
+          "text": "hand"
+        },
+        {
+          "id": "batch-02-158",
+          "text": "eye"
+        },
+        {
+          "id": "batch-02-159",
+          "text": "head"
+        },
+        {
+          "id": "batch-02-160",
+          "text": "face"
+        },
+        {
+          "id": "batch-02-161",
+          "text": "body"
+        },
+        {
+          "id": "batch-02-162",
+          "text": "thing"
+        },
+        {
+          "id": "batch-02-163",
+          "text": "something"
+        },
+        {
+          "id": "batch-02-164",
+          "text": "anything"
+        },
+        {
+          "id": "batch-02-165",
+          "text": "nothing"
+        },
+        {
+          "id": "batch-02-166",
+          "text": "everything"
+        },
+        {
+          "id": "batch-02-167",
+          "text": "idea"
+        },
+        {
+          "id": "batch-02-168",
+          "text": "problem"
+        },
+        {
+          "id": "batch-02-169",
+          "text": "question"
+        },
+        {
+          "id": "batch-02-170",
+          "text": "answer"
+        },
+        {
+          "id": "batch-02-171",
+          "text": "fact"
+        },
+        {
+          "id": "batch-02-172",
+          "text": "case"
+        },
+        {
+          "id": "batch-02-173",
+          "text": "example"
+        },
+        {
+          "id": "batch-02-174",
+          "text": "reason"
+        },
+        {
+          "id": "batch-02-175",
+          "text": "result"
+        },
+        {
+          "id": "batch-02-176",
+          "text": "way"
+        },
+        {
+          "id": "batch-02-177",
+          "text": "kind"
+        },
+        {
+          "id": "batch-02-178",
+          "text": "type"
+        },
+        {
+          "id": "batch-02-179",
+          "text": "level"
+        },
+        {
+          "id": "batch-02-180",
+          "text": "part"
+        },
+        {
+          "id": "batch-02-181",
+          "text": "end"
+        },
+        {
+          "id": "batch-02-182",
+          "text": "plan"
+        },
+        {
+          "id": "batch-02-183",
+          "text": "number"
+        },
+        {
+          "id": "batch-02-184",
+          "text": "amount"
+        },
+        {
+          "id": "batch-02-185",
+          "text": "total"
+        },
+        {
+          "id": "batch-02-186",
+          "text": "all"
+        },
+        {
+          "id": "batch-02-187",
+          "text": "most"
+        },
+        {
+          "id": "batch-02-188",
+          "text": "some"
+        },
+        {
+          "id": "batch-02-189",
+          "text": "none"
+        },
+        {
+          "id": "batch-02-190",
+          "text": "half"
+        },
+        {
+          "id": "batch-02-191",
+          "text": "many"
+        },
+        {
+          "id": "batch-02-192",
+          "text": "much"
+        },
+        {
+          "id": "batch-02-193",
+          "text": "less"
+        },
+        {
+          "id": "batch-02-194",
+          "text": "more"
+        },
+        {
+          "id": "batch-02-195",
+          "text": "enough"
+        },
+        {
+          "id": "batch-02-196",
+          "text": "few"
+        },
+        {
+          "id": "batch-02-197",
+          "text": "several"
+        },
+        {
+          "id": "batch-02-198",
+          "text": "each"
+        },
+        {
+          "id": "batch-02-199",
+          "text": "every"
+        },
+        {
+          "id": "batch-02-200",
+          "text": "whole"
+        },
+        {
+          "id": "batch-02-201",
+          "text": "early"
+        },
+        {
+          "id": "batch-02-202",
+          "text": "late"
+        },
+        {
+          "id": "batch-02-203",
+          "text": "next"
+        },
+        {
+          "id": "batch-02-204",
+          "text": "last"
+        },
+        {
+          "id": "batch-02-205",
+          "text": "first"
+        },
+        {
+          "id": "batch-02-206",
+          "text": "second"
+        },
+        {
+          "id": "batch-02-207",
+          "text": "third"
+        },
+        {
+          "id": "batch-02-208",
+          "text": "final"
+        },
+        {
+          "id": "batch-02-209",
+          "text": "before"
+        },
+        {
+          "id": "batch-02-210",
+          "text": "after"
+        },
+        {
+          "id": "batch-02-211",
+          "text": "during"
+        },
+        {
+          "id": "batch-02-212",
+          "text": "already"
+        },
+        {
+          "id": "batch-02-213",
+          "text": "soon"
+        },
+        {
+          "id": "batch-02-214",
+          "text": "now"
+        },
+        {
+          "id": "batch-02-215",
+          "text": "then"
+        },
+        {
+          "id": "batch-02-216",
+          "text": "good"
+        },
+        {
+          "id": "batch-02-217",
+          "text": "bad"
+        },
+        {
+          "id": "batch-02-218",
+          "text": "new"
+        },
+        {
+          "id": "batch-02-219",
+          "text": "old"
+        },
+        {
+          "id": "batch-02-220",
+          "text": "young"
+        },
+        {
+          "id": "batch-02-221",
+          "text": "big"
+        },
+        {
+          "id": "batch-02-222",
+          "text": "small"
+        },
+        {
+          "id": "batch-02-223",
+          "text": "large"
+        },
+        {
+          "id": "batch-02-224",
+          "text": "long"
+        },
+        {
+          "id": "batch-02-225",
+          "text": "short"
+        },
+        {
+          "id": "batch-02-226",
+          "text": "high"
+        },
+        {
+          "id": "batch-02-227",
+          "text": "low"
+        },
+        {
+          "id": "batch-02-228",
+          "text": "right"
+        },
+        {
+          "id": "batch-02-229",
+          "text": "wrong"
+        },
+        {
+          "id": "batch-02-230",
+          "text": "easy"
+        },
+        {
+          "id": "batch-02-231",
+          "text": "hard"
+        },
+        {
+          "id": "batch-02-232",
+          "text": "important"
+        },
+        {
+          "id": "batch-02-233",
+          "text": "different"
+        },
+        {
+          "id": "batch-02-234",
+          "text": "same"
+        },
+        {
+          "id": "batch-02-235",
+          "text": "possible"
+        },
+        {
+          "id": "batch-02-236",
+          "text": "real"
+        },
+        {
+          "id": "batch-02-237",
+          "text": "true"
+        },
+        {
+          "id": "batch-02-238",
+          "text": "again"
+        },
+        {
+          "id": "batch-02-239",
+          "text": "together"
+        },
+        {
+          "id": "batch-02-240",
+          "text": "around"
+        },
+        {
+          "id": "batch-02-241",
+          "text": "without"
+        },
+        {
+          "id": "batch-02-242",
+          "text": "within"
+        },
+        {
+          "id": "batch-02-243",
+          "text": "between"
+        },
+        {
+          "id": "batch-02-244",
+          "text": "among"
+        },
+        {
+          "id": "batch-02-245",
+          "text": "against"
+        },
+        {
+          "id": "batch-02-246",
+          "text": "instead"
+        },
+        {
+          "id": "batch-02-247",
+          "text": "perhaps"
+        },
+        {
+          "id": "batch-02-248",
+          "text": "maybe"
+        },
+        {
+          "id": "batch-02-249",
+          "text": "almost"
+        },
+        {
+          "id": "batch-02-250",
+          "text": "quite"
+        },
+        {
+          "id": "batch-02-251",
+          "text": "rather"
+        }
+      ]
+    },
+    {
+      "id": "batch-03",
+      "title": "第 3 批",
+      "range": "约 Top 501–750",
+      "words": [
+        {
+          "id": "batch-03-1",
+          "text": "arrive"
+        },
+        {
+          "id": "batch-03-2",
+          "text": "leave"
+        },
+        {
+          "id": "batch-03-3",
+          "text": "enter"
+        },
+        {
+          "id": "batch-03-4",
+          "text": "exit"
+        },
+        {
+          "id": "batch-03-5",
+          "text": "travel"
+        },
+        {
+          "id": "batch-03-6",
+          "text": "drive"
+        },
+        {
+          "id": "batch-03-7",
+          "text": "ride"
+        },
+        {
+          "id": "batch-03-8",
+          "text": "fly"
+        },
+        {
+          "id": "batch-03-9",
+          "text": "walk"
+        },
+        {
+          "id": "batch-03-10",
+          "text": "run"
+        },
+        {
+          "id": "batch-03-11",
+          "text": "stop"
+        },
+        {
+          "id": "batch-03-12",
+          "text": "rest"
+        },
+        {
+          "id": "batch-03-13",
+          "text": "sleep"
+        },
+        {
+          "id": "batch-03-14",
+          "text": "wake"
+        },
+        {
+          "id": "batch-03-15",
+          "text": "eat"
+        },
+        {
+          "id": "batch-03-16",
+          "text": "drink"
+        },
+        {
+          "id": "batch-03-17",
+          "text": "cook"
+        },
+        {
+          "id": "batch-03-18",
+          "text": "clean"
+        },
+        {
+          "id": "batch-03-19",
+          "text": "wash"
+        },
+        {
+          "id": "batch-03-20",
+          "text": "open"
+        },
+        {
+          "id": "batch-03-21",
+          "text": "close"
+        },
+        {
+          "id": "batch-03-22",
+          "text": "lock"
+        },
+        {
+          "id": "batch-03-23",
+          "text": "unlock"
+        },
+        {
+          "id": "batch-03-24",
+          "text": "wear"
+        },
+        {
+          "id": "batch-03-25",
+          "text": "carry"
+        },
+        {
+          "id": "batch-03-26",
+          "text": "push"
+        },
+        {
+          "id": "batch-03-27",
+          "text": "pull"
+        },
+        {
+          "id": "batch-03-28",
+          "text": "throw"
+        },
+        {
+          "id": "batch-03-29",
+          "text": "catch"
+        },
+        {
+          "id": "batch-03-30",
+          "text": "fix"
+        },
+        {
+          "id": "batch-03-31",
+          "text": "break"
+        },
+        {
+          "id": "batch-03-32",
+          "text": "repair"
+        },
+        {
+          "id": "batch-03-33",
+          "text": "car"
+        },
+        {
+          "id": "batch-03-34",
+          "text": "bus"
+        },
+        {
+          "id": "batch-03-35",
+          "text": "train"
+        },
+        {
+          "id": "batch-03-36",
+          "text": "subway"
+        },
+        {
+          "id": "batch-03-37",
+          "text": "plane"
+        },
+        {
+          "id": "batch-03-38",
+          "text": "airport"
+        },
+        {
+          "id": "batch-03-39",
+          "text": "station"
+        },
+        {
+          "id": "batch-03-40",
+          "text": "road"
+        },
+        {
+          "id": "batch-03-41",
+          "text": "street"
+        },
+        {
+          "id": "batch-03-42",
+          "text": "bridge"
+        },
+        {
+          "id": "batch-03-43",
+          "text": "traffic"
+        },
+        {
+          "id": "batch-03-44",
+          "text": "ticket"
+        },
+        {
+          "id": "batch-03-45",
+          "text": "trip"
+        },
+        {
+          "id": "batch-03-46",
+          "text": "journey"
+        },
+        {
+          "id": "batch-03-47",
+          "text": "health"
+        },
+        {
+          "id": "batch-03-48",
+          "text": "healthy"
+        },
+        {
+          "id": "batch-03-49",
+          "text": "sick"
+        },
+        {
+          "id": "batch-03-50",
+          "text": "ill"
+        },
+        {
+          "id": "batch-03-51",
+          "text": "pain"
+        },
+        {
+          "id": "batch-03-52",
+          "text": "hurt"
+        },
+        {
+          "id": "batch-03-53",
+          "text": "doctor"
+        },
+        {
+          "id": "batch-03-54",
+          "text": "hospital"
+        },
+        {
+          "id": "batch-03-55",
+          "text": "medicine"
+        },
+        {
+          "id": "batch-03-56",
+          "text": "body"
+        },
+        {
+          "id": "batch-03-57",
+          "text": "heart"
+        },
+        {
+          "id": "batch-03-58",
+          "text": "brain"
+        },
+        {
+          "id": "batch-03-59",
+          "text": "blood"
+        },
+        {
+          "id": "batch-03-60",
+          "text": "hand"
+        },
+        {
+          "id": "batch-03-61",
+          "text": "arm"
+        },
+        {
+          "id": "batch-03-62",
+          "text": "leg"
+        },
+        {
+          "id": "batch-03-63",
+          "text": "foot"
+        },
+        {
+          "id": "batch-03-64",
+          "text": "eye"
+        },
+        {
+          "id": "batch-03-65",
+          "text": "ear"
+        },
+        {
+          "id": "batch-03-66",
+          "text": "mouth"
+        },
+        {
+          "id": "batch-03-67",
+          "text": "happy"
+        },
+        {
+          "id": "batch-03-68",
+          "text": "sad"
+        },
+        {
+          "id": "batch-03-69",
+          "text": "angry"
+        },
+        {
+          "id": "batch-03-70",
+          "text": "afraid"
+        },
+        {
+          "id": "batch-03-71",
+          "text": "fear"
+        },
+        {
+          "id": "batch-03-72",
+          "text": "surprised"
+        },
+        {
+          "id": "batch-03-73",
+          "text": "excited"
+        },
+        {
+          "id": "batch-03-74",
+          "text": "tired"
+        },
+        {
+          "id": "batch-03-75",
+          "text": "bored"
+        },
+        {
+          "id": "batch-03-76",
+          "text": "interested"
+        },
+        {
+          "id": "batch-03-77",
+          "text": "worried"
+        },
+        {
+          "id": "batch-03-78",
+          "text": "calm"
+        },
+        {
+          "id": "batch-03-79",
+          "text": "nervous"
+        },
+        {
+          "id": "batch-03-80",
+          "text": "relaxed"
+        },
+        {
+          "id": "batch-03-81",
+          "text": "proud"
+        },
+        {
+          "id": "batch-03-82",
+          "text": "ashamed"
+        },
+        {
+          "id": "batch-03-83",
+          "text": "confused"
+        },
+        {
+          "id": "batch-03-84",
+          "text": "serious"
+        },
+        {
+          "id": "batch-03-85",
+          "text": "mind"
+        },
+        {
+          "id": "batch-03-86",
+          "text": "thought"
+        },
+        {
+          "id": "batch-03-87",
+          "text": "idea"
+        },
+        {
+          "id": "batch-03-88",
+          "text": "opinion"
+        },
+        {
+          "id": "batch-03-89",
+          "text": "choice"
+        },
+        {
+          "id": "batch-03-90",
+          "text": "decision"
+        },
+        {
+          "id": "batch-03-91",
+          "text": "reason"
+        },
+        {
+          "id": "batch-03-92",
+          "text": "result"
+        },
+        {
+          "id": "batch-03-93",
+          "text": "memory"
+        },
+        {
+          "id": "batch-03-94",
+          "text": "experience"
+        },
+        {
+          "id": "batch-03-95",
+          "text": "knowledge"
+        },
+        {
+          "id": "batch-03-96",
+          "text": "skill"
+        },
+        {
+          "id": "batch-03-97",
+          "text": "ability"
+        },
+        {
+          "id": "batch-03-98",
+          "text": "sense"
+        },
+        {
+          "id": "batch-03-99",
+          "text": "truth"
+        },
+        {
+          "id": "batch-03-100",
+          "text": "fact"
+        },
+        {
+          "id": "batch-03-101",
+          "text": "belief"
+        },
+        {
+          "id": "batch-03-102",
+          "text": "word"
+        },
+        {
+          "id": "batch-03-103",
+          "text": "sentence"
+        },
+        {
+          "id": "batch-03-104",
+          "text": "language"
+        },
+        {
+          "id": "batch-03-105",
+          "text": "voice"
+        },
+        {
+          "id": "batch-03-106",
+          "text": "sound"
+        },
+        {
+          "id": "batch-03-107",
+          "text": "meaning"
+        },
+        {
+          "id": "batch-03-108",
+          "text": "message"
+        },
+        {
+          "id": "batch-03-109",
+          "text": "news"
+        },
+        {
+          "id": "batch-03-110",
+          "text": "story"
+        },
+        {
+          "id": "batch-03-111",
+          "text": "information"
+        },
+        {
+          "id": "batch-03-112",
+          "text": "example"
+        },
+        {
+          "id": "batch-03-113",
+          "text": "question"
+        },
+        {
+          "id": "batch-03-114",
+          "text": "answer"
+        },
+        {
+          "id": "batch-03-115",
+          "text": "reply"
+        },
+        {
+          "id": "batch-03-116",
+          "text": "comment"
+        },
+        {
+          "id": "batch-03-117",
+          "text": "discussion"
+        },
+        {
+          "id": "batch-03-118",
+          "text": "conversation"
+        },
+        {
+          "id": "batch-03-119",
+          "text": "thing"
+        },
+        {
+          "id": "batch-03-120",
+          "text": "stuff"
+        },
+        {
+          "id": "batch-03-121",
+          "text": "object"
+        },
+        {
+          "id": "batch-03-122",
+          "text": "tool"
+        },
+        {
+          "id": "batch-03-123",
+          "text": "machine"
+        },
+        {
+          "id": "batch-03-124",
+          "text": "device"
+        },
+        {
+          "id": "batch-03-125",
+          "text": "computer"
+        },
+        {
+          "id": "batch-03-126",
+          "text": "phone"
+        },
+        {
+          "id": "batch-03-127",
+          "text": "screen"
+        },
+        {
+          "id": "batch-03-128",
+          "text": "internet"
+        },
+        {
+          "id": "batch-03-129",
+          "text": "website"
+        },
+        {
+          "id": "batch-03-130",
+          "text": "email"
+        },
+        {
+          "id": "batch-03-131",
+          "text": "file"
+        },
+        {
+          "id": "batch-03-132",
+          "text": "paper"
+        },
+        {
+          "id": "batch-03-133",
+          "text": "book"
+        },
+        {
+          "id": "batch-03-134",
+          "text": "page"
+        },
+        {
+          "id": "batch-03-135",
+          "text": "picture"
+        },
+        {
+          "id": "batch-03-136",
+          "text": "photo"
+        },
+        {
+          "id": "batch-03-137",
+          "text": "video"
+        },
+        {
+          "id": "batch-03-138",
+          "text": "music"
+        },
+        {
+          "id": "batch-03-139",
+          "text": "nature"
+        },
+        {
+          "id": "batch-03-140",
+          "text": "weather"
+        },
+        {
+          "id": "batch-03-141",
+          "text": "sun"
+        },
+        {
+          "id": "batch-03-142",
+          "text": "moon"
+        },
+        {
+          "id": "batch-03-143",
+          "text": "star"
+        },
+        {
+          "id": "batch-03-144",
+          "text": "sky"
+        },
+        {
+          "id": "batch-03-145",
+          "text": "cloud"
+        },
+        {
+          "id": "batch-03-146",
+          "text": "rain"
+        },
+        {
+          "id": "batch-03-147",
+          "text": "snow"
+        },
+        {
+          "id": "batch-03-148",
+          "text": "wind"
+        },
+        {
+          "id": "batch-03-149",
+          "text": "air"
+        },
+        {
+          "id": "batch-03-150",
+          "text": "water"
+        },
+        {
+          "id": "batch-03-151",
+          "text": "fire"
+        },
+        {
+          "id": "batch-03-152",
+          "text": "earth"
+        },
+        {
+          "id": "batch-03-153",
+          "text": "tree"
+        },
+        {
+          "id": "batch-03-154",
+          "text": "plant"
+        },
+        {
+          "id": "batch-03-155",
+          "text": "animal"
+        },
+        {
+          "id": "batch-03-156",
+          "text": "river"
+        },
+        {
+          "id": "batch-03-157",
+          "text": "sea"
+        },
+        {
+          "id": "batch-03-158",
+          "text": "mountain"
+        },
+        {
+          "id": "batch-03-159",
+          "text": "fast"
+        },
+        {
+          "id": "batch-03-160",
+          "text": "slow"
+        },
+        {
+          "id": "batch-03-161",
+          "text": "early"
+        },
+        {
+          "id": "batch-03-162",
+          "text": "late"
+        },
+        {
+          "id": "batch-03-163",
+          "text": "free"
+        },
+        {
+          "id": "batch-03-164",
+          "text": "busy"
+        },
+        {
+          "id": "batch-03-165",
+          "text": "safe"
+        },
+        {
+          "id": "batch-03-166",
+          "text": "dangerous"
+        },
+        {
+          "id": "batch-03-167",
+          "text": "strong"
+        },
+        {
+          "id": "batch-03-168",
+          "text": "weak"
+        },
+        {
+          "id": "batch-03-169",
+          "text": "heavy"
+        },
+        {
+          "id": "batch-03-170",
+          "text": "light"
+        },
+        {
+          "id": "batch-03-171",
+          "text": "simple"
+        },
+        {
+          "id": "batch-03-172",
+          "text": "complex"
+        },
+        {
+          "id": "batch-03-173",
+          "text": "clear"
+        },
+        {
+          "id": "batch-03-174",
+          "text": "dark"
+        },
+        {
+          "id": "batch-03-175",
+          "text": "bright"
+        },
+        {
+          "id": "batch-03-176",
+          "text": "full"
+        },
+        {
+          "id": "batch-03-177",
+          "text": "empty"
+        },
+        {
+          "id": "batch-03-178",
+          "text": "quiet"
+        },
+        {
+          "id": "batch-03-179",
+          "text": "loud"
+        },
+        {
+          "id": "batch-03-180",
+          "text": "very"
+        },
+        {
+          "id": "batch-03-181",
+          "text": "too"
+        },
+        {
+          "id": "batch-03-182",
+          "text": "so"
+        },
+        {
+          "id": "batch-03-183",
+          "text": "enough"
+        },
+        {
+          "id": "batch-03-184",
+          "text": "almost"
+        },
+        {
+          "id": "batch-03-185",
+          "text": "already"
+        },
+        {
+          "id": "batch-03-186",
+          "text": "still"
+        },
+        {
+          "id": "batch-03-187",
+          "text": "yet"
+        },
+        {
+          "id": "batch-03-188",
+          "text": "often"
+        },
+        {
+          "id": "batch-03-189",
+          "text": "usually"
+        },
+        {
+          "id": "batch-03-190",
+          "text": "sometimes"
+        },
+        {
+          "id": "batch-03-191",
+          "text": "rarely"
+        },
+        {
+          "id": "batch-03-192",
+          "text": "never"
+        },
+        {
+          "id": "batch-03-193",
+          "text": "always"
+        },
+        {
+          "id": "batch-03-194",
+          "text": "again"
+        },
+        {
+          "id": "batch-03-195",
+          "text": "together"
+        },
+        {
+          "id": "batch-03-196",
+          "text": "apart"
+        },
+        {
+          "id": "batch-03-197",
+          "text": "more"
+        },
+        {
+          "id": "batch-03-198",
+          "text": "less"
+        },
+        {
+          "id": "batch-03-199",
+          "text": "most"
+        },
+        {
+          "id": "batch-03-200",
+          "text": "least"
+        },
+        {
+          "id": "batch-03-201",
+          "text": "extra"
+        },
+        {
+          "id": "batch-03-202",
+          "text": "single"
+        },
+        {
+          "id": "batch-03-203",
+          "text": "double"
+        },
+        {
+          "id": "batch-03-204",
+          "text": "whole"
+        },
+        {
+          "id": "batch-03-205",
+          "text": "partial"
+        }
+      ]
+    },
+    {
+      "id": "batch-04",
+      "title": "第 4 批",
+      "range": "约 Top 751–1000",
+      "words": [
+        {
+          "id": "batch-04-1",
+          "text": "able"
+        },
+        {
+          "id": "batch-04-2",
+          "text": "unable"
+        },
+        {
+          "id": "batch-04-3",
+          "text": "available"
+        },
+        {
+          "id": "batch-04-4",
+          "text": "necessary"
+        },
+        {
+          "id": "batch-04-5",
+          "text": "important"
+        },
+        {
+          "id": "batch-04-6",
+          "text": "useful"
+        },
+        {
+          "id": "batch-04-7",
+          "text": "useless"
+        },
+        {
+          "id": "batch-04-8",
+          "text": "common"
+        },
+        {
+          "id": "batch-04-9",
+          "text": "normal"
+        },
+        {
+          "id": "batch-04-10",
+          "text": "general"
+        },
+        {
+          "id": "batch-04-11",
+          "text": "special"
+        },
+        {
+          "id": "batch-04-12",
+          "text": "public"
+        },
+        {
+          "id": "batch-04-13",
+          "text": "private"
+        },
+        {
+          "id": "batch-04-14",
+          "text": "local"
+        },
+        {
+          "id": "batch-04-15",
+          "text": "global"
+        },
+        {
+          "id": "batch-04-16",
+          "text": "certain"
+        },
+        {
+          "id": "batch-04-17",
+          "text": "uncertain"
+        },
+        {
+          "id": "batch-04-18",
+          "text": "clear"
+        },
+        {
+          "id": "batch-04-19",
+          "text": "unclear"
+        },
+        {
+          "id": "batch-04-20",
+          "text": "simple"
+        },
+        {
+          "id": "batch-04-21",
+          "text": "difficult"
+        },
+        {
+          "id": "batch-04-22",
+          "text": "easy"
+        },
+        {
+          "id": "batch-04-23",
+          "text": "hard"
+        },
+        {
+          "id": "batch-04-24",
+          "text": "safe"
+        },
+        {
+          "id": "batch-04-25",
+          "text": "dangerous"
+        },
+        {
+          "id": "batch-04-26",
+          "text": "effective"
+        },
+        {
+          "id": "batch-04-27",
+          "text": "efficient"
+        },
+        {
+          "id": "batch-04-28",
+          "text": "powerful"
+        },
+        {
+          "id": "batch-04-29",
+          "text": "weak"
+        },
+        {
+          "id": "batch-04-30",
+          "text": "strong"
+        },
+        {
+          "id": "batch-04-31",
+          "text": "basic"
+        },
+        {
+          "id": "batch-04-32",
+          "text": "advanced"
+        },
+        {
+          "id": "batch-04-33",
+          "text": "natural"
+        },
+        {
+          "id": "batch-04-34",
+          "text": "artificial"
+        },
+        {
+          "id": "batch-04-35",
+          "text": "similar"
+        },
+        {
+          "id": "batch-04-36",
+          "text": "different"
+        },
+        {
+          "id": "batch-04-37",
+          "text": "equal"
+        },
+        {
+          "id": "batch-04-38",
+          "text": "fair"
+        },
+        {
+          "id": "batch-04-39",
+          "text": "unfair"
+        },
+        {
+          "id": "batch-04-40",
+          "text": "idea"
+        },
+        {
+          "id": "batch-04-41",
+          "text": "opinion"
+        },
+        {
+          "id": "batch-04-42",
+          "text": "view"
+        },
+        {
+          "id": "batch-04-43",
+          "text": "thought"
+        },
+        {
+          "id": "batch-04-44",
+          "text": "plan"
+        },
+        {
+          "id": "batch-04-45",
+          "text": "goal"
+        },
+        {
+          "id": "batch-04-46",
+          "text": "purpose"
+        },
+        {
+          "id": "batch-04-47",
+          "text": "reason"
+        },
+        {
+          "id": "batch-04-48",
+          "text": "result"
+        },
+        {
+          "id": "batch-04-49",
+          "text": "effect"
+        },
+        {
+          "id": "batch-04-50",
+          "text": "cause"
+        },
+        {
+          "id": "batch-04-51",
+          "text": "problem"
+        },
+        {
+          "id": "batch-04-52",
+          "text": "issue"
+        },
+        {
+          "id": "batch-04-53",
+          "text": "solution"
+        },
+        {
+          "id": "batch-04-54",
+          "text": "risk"
+        },
+        {
+          "id": "batch-04-55",
+          "text": "chance"
+        },
+        {
+          "id": "batch-04-56",
+          "text": "opportunity"
+        },
+        {
+          "id": "batch-04-57",
+          "text": "choice"
+        },
+        {
+          "id": "batch-04-58",
+          "text": "decision"
+        },
+        {
+          "id": "batch-04-59",
+          "text": "process"
+        },
+        {
+          "id": "batch-04-60",
+          "text": "progress"
+        },
+        {
+          "id": "batch-04-61",
+          "text": "success"
+        },
+        {
+          "id": "batch-04-62",
+          "text": "failure"
+        },
+        {
+          "id": "batch-04-63",
+          "text": "experience"
+        },
+        {
+          "id": "batch-04-64",
+          "text": "knowledge"
+        },
+        {
+          "id": "batch-04-65",
+          "text": "skill"
+        },
+        {
+          "id": "batch-04-66",
+          "text": "ability"
+        },
+        {
+          "id": "batch-04-67",
+          "text": "work"
+        },
+        {
+          "id": "batch-04-68",
+          "text": "job"
+        },
+        {
+          "id": "batch-04-69",
+          "text": "career"
+        },
+        {
+          "id": "batch-04-70",
+          "text": "task"
+        },
+        {
+          "id": "batch-04-71",
+          "text": "project"
+        },
+        {
+          "id": "batch-04-72",
+          "text": "program"
+        },
+        {
+          "id": "batch-04-73",
+          "text": "system"
+        },
+        {
+          "id": "batch-04-74",
+          "text": "method"
+        },
+        {
+          "id": "batch-04-75",
+          "text": "model"
+        },
+        {
+          "id": "batch-04-76",
+          "text": "structure"
+        },
+        {
+          "id": "batch-04-77",
+          "text": "design"
+        },
+        {
+          "id": "batch-04-78",
+          "text": "schedule"
+        },
+        {
+          "id": "batch-04-79",
+          "text": "rule"
+        },
+        {
+          "id": "batch-04-80",
+          "text": "policy"
+        },
+        {
+          "id": "batch-04-81",
+          "text": "law"
+        },
+        {
+          "id": "batch-04-82",
+          "text": "education"
+        },
+        {
+          "id": "batch-04-83",
+          "text": "school"
+        },
+        {
+          "id": "batch-04-84",
+          "text": "college"
+        },
+        {
+          "id": "batch-04-85",
+          "text": "university"
+        },
+        {
+          "id": "batch-04-86",
+          "text": "class"
+        },
+        {
+          "id": "batch-04-87",
+          "text": "course"
+        },
+        {
+          "id": "batch-04-88",
+          "text": "lesson"
+        },
+        {
+          "id": "batch-04-89",
+          "text": "training"
+        },
+        {
+          "id": "batch-04-90",
+          "text": "practice"
+        },
+        {
+          "id": "batch-04-91",
+          "text": "test"
+        },
+        {
+          "id": "batch-04-92",
+          "text": "exam"
+        },
+        {
+          "id": "batch-04-93",
+          "text": "score"
+        },
+        {
+          "id": "batch-04-94",
+          "text": "grade"
+        },
+        {
+          "id": "batch-04-95",
+          "text": "explain"
+        },
+        {
+          "id": "batch-04-96",
+          "text": "describe"
+        },
+        {
+          "id": "batch-04-97",
+          "text": "discuss"
+        },
+        {
+          "id": "batch-04-98",
+          "text": "argue"
+        },
+        {
+          "id": "batch-04-99",
+          "text": "agree"
+        },
+        {
+          "id": "batch-04-100",
+          "text": "disagree"
+        },
+        {
+          "id": "batch-04-101",
+          "text": "suggest"
+        },
+        {
+          "id": "batch-04-102",
+          "text": "recommend"
+        },
+        {
+          "id": "batch-04-103",
+          "text": "advise"
+        },
+        {
+          "id": "batch-04-104",
+          "text": "warn"
+        },
+        {
+          "id": "batch-04-105",
+          "text": "promise"
+        },
+        {
+          "id": "batch-04-106",
+          "text": "refuse"
+        },
+        {
+          "id": "batch-04-107",
+          "text": "accept"
+        },
+        {
+          "id": "batch-04-108",
+          "text": "reply"
+        },
+        {
+          "id": "batch-04-109",
+          "text": "respond"
+        },
+        {
+          "id": "batch-04-110",
+          "text": "mention"
+        },
+        {
+          "id": "batch-04-111",
+          "text": "report"
+        },
+        {
+          "id": "batch-04-112",
+          "text": "state"
+        },
+        {
+          "id": "batch-04-113",
+          "text": "claim"
+        },
+        {
+          "id": "batch-04-114",
+          "text": "express"
+        },
+        {
+          "id": "batch-04-115",
+          "text": "communicate"
+        },
+        {
+          "id": "batch-04-116",
+          "text": "recent"
+        },
+        {
+          "id": "batch-04-117",
+          "text": "current"
+        },
+        {
+          "id": "batch-04-118",
+          "text": "previous"
+        },
+        {
+          "id": "batch-04-119",
+          "text": "future"
+        },
+        {
+          "id": "batch-04-120",
+          "text": "past"
+        },
+        {
+          "id": "batch-04-121",
+          "text": "temporary"
+        },
+        {
+          "id": "batch-04-122",
+          "text": "permanent"
+        },
+        {
+          "id": "batch-04-123",
+          "text": "daily"
+        },
+        {
+          "id": "batch-04-124",
+          "text": "weekly"
+        },
+        {
+          "id": "batch-04-125",
+          "text": "monthly"
+        },
+        {
+          "id": "batch-04-126",
+          "text": "annual"
+        },
+        {
+          "id": "batch-04-127",
+          "text": "regular"
+        },
+        {
+          "id": "batch-04-128",
+          "text": "frequent"
+        },
+        {
+          "id": "batch-04-129",
+          "text": "rare"
+        },
+        {
+          "id": "batch-04-130",
+          "text": "immediate"
+        },
+        {
+          "id": "batch-04-131",
+          "text": "sudden"
+        },
+        {
+          "id": "batch-04-132",
+          "text": "eventual"
+        },
+        {
+          "id": "batch-04-133",
+          "text": "total"
+        },
+        {
+          "id": "batch-04-134",
+          "text": "average"
+        },
+        {
+          "id": "batch-04-135",
+          "text": "minimum"
+        },
+        {
+          "id": "batch-04-136",
+          "text": "maximum"
+        },
+        {
+          "id": "batch-04-137",
+          "text": "limit"
+        },
+        {
+          "id": "batch-04-138",
+          "text": "range"
+        },
+        {
+          "id": "batch-04-139",
+          "text": "scale"
+        },
+        {
+          "id": "batch-04-140",
+          "text": "level"
+        },
+        {
+          "id": "batch-04-141",
+          "text": "degree"
+        },
+        {
+          "id": "batch-04-142",
+          "text": "rate"
+        },
+        {
+          "id": "batch-04-143",
+          "text": "portion"
+        },
+        {
+          "id": "batch-04-144",
+          "text": "percentage"
+        },
+        {
+          "id": "batch-04-145",
+          "text": "amount"
+        },
+        {
+          "id": "batch-04-146",
+          "text": "quantity"
+        },
+        {
+          "id": "batch-04-147",
+          "text": "especially"
+        },
+        {
+          "id": "batch-04-148",
+          "text": "particularly"
+        },
+        {
+          "id": "batch-04-149",
+          "text": "mainly"
+        },
+        {
+          "id": "batch-04-150",
+          "text": "mostly"
+        },
+        {
+          "id": "batch-04-151",
+          "text": "generally"
+        },
+        {
+          "id": "batch-04-152",
+          "text": "roughly"
+        },
+        {
+          "id": "batch-04-153",
+          "text": "exactly"
+        },
+        {
+          "id": "batch-04-154",
+          "text": "nearly"
+        },
+        {
+          "id": "batch-04-155",
+          "text": "hardly"
+        },
+        {
+          "id": "batch-04-156",
+          "text": "barely"
+        },
+        {
+          "id": "batch-04-157",
+          "text": "simply"
+        },
+        {
+          "id": "batch-04-158",
+          "text": "clearly"
+        },
+        {
+          "id": "batch-04-159",
+          "text": "obviously"
+        },
+        {
+          "id": "batch-04-160",
+          "text": "actually"
+        },
+        {
+          "id": "batch-04-161",
+          "text": "probably"
+        },
+        {
+          "id": "batch-04-162",
+          "text": "possibly"
+        },
+        {
+          "id": "batch-04-163",
+          "text": "fortunately"
+        },
+        {
+          "id": "batch-04-164",
+          "text": "unfortunately"
+        },
+        {
+          "id": "batch-04-165",
+          "text": "according"
+        },
+        {
+          "id": "batch-04-166",
+          "text": "regarding"
+        },
+        {
+          "id": "batch-04-167",
+          "text": "concerning"
+        },
+        {
+          "id": "batch-04-168",
+          "text": "despite"
+        },
+        {
+          "id": "batch-04-169",
+          "text": "beyond"
+        },
+        {
+          "id": "batch-04-170",
+          "text": "throughout"
+        },
+        {
+          "id": "batch-04-171",
+          "text": "via"
+        },
+        {
+          "id": "batch-04-172",
+          "text": "per"
+        },
+        {
+          "id": "batch-04-173",
+          "text": "plus"
+        },
+        {
+          "id": "batch-04-174",
+          "text": "minus"
+        }
+      ]
+    },
+    {
+      "id": "batch-05",
+      "title": "第 5 批",
+      "range": "约 Top 1001–1250",
+      "words": [
+        {
+          "id": "batch-05-1",
+          "text": "concept"
+        },
+        {
+          "id": "batch-05-2",
+          "text": "theory"
+        },
+        {
+          "id": "batch-05-3",
+          "text": "principle"
+        },
+        {
+          "id": "batch-05-4",
+          "text": "logic"
+        },
+        {
+          "id": "batch-05-5",
+          "text": "reasoning"
+        },
+        {
+          "id": "batch-05-6",
+          "text": "analysis"
+        },
+        {
+          "id": "batch-05-7",
+          "text": "assumption"
+        },
+        {
+          "id": "batch-05-8",
+          "text": "conclusion"
+        },
+        {
+          "id": "batch-05-9",
+          "text": "context"
+        },
+        {
+          "id": "batch-05-10",
+          "text": "perspective"
+        },
+        {
+          "id": "batch-05-11",
+          "text": "approach"
+        },
+        {
+          "id": "batch-05-12",
+          "text": "method"
+        },
+        {
+          "id": "batch-05-13",
+          "text": "strategy"
+        },
+        {
+          "id": "batch-05-14",
+          "text": "pattern"
+        },
+        {
+          "id": "batch-05-15",
+          "text": "trend"
+        },
+        {
+          "id": "batch-05-16",
+          "text": "structure"
+        },
+        {
+          "id": "batch-05-17",
+          "text": "framework"
+        },
+        {
+          "id": "batch-05-18",
+          "text": "model"
+        },
+        {
+          "id": "batch-05-19",
+          "text": "factor"
+        },
+        {
+          "id": "batch-05-20",
+          "text": "element"
+        },
+        {
+          "id": "batch-05-21",
+          "text": "aspect"
+        },
+        {
+          "id": "batch-05-22",
+          "text": "situation"
+        },
+        {
+          "id": "batch-05-23",
+          "text": "condition"
+        },
+        {
+          "id": "batch-05-24",
+          "text": "circumstance"
+        },
+        {
+          "id": "batch-05-25",
+          "text": "environment"
+        },
+        {
+          "id": "batch-05-26",
+          "text": "background"
+        },
+        {
+          "id": "batch-05-27",
+          "text": "detail"
+        },
+        {
+          "id": "batch-05-28",
+          "text": "issue"
+        },
+        {
+          "id": "batch-05-29",
+          "text": "matter"
+        },
+        {
+          "id": "batch-05-30",
+          "text": "topic"
+        },
+        {
+          "id": "batch-05-31",
+          "text": "subject"
+        },
+        {
+          "id": "batch-05-32",
+          "text": "content"
+        },
+        {
+          "id": "batch-05-33",
+          "text": "theme"
+        },
+        {
+          "id": "batch-05-34",
+          "text": "focus"
+        },
+        {
+          "id": "batch-05-35",
+          "text": "priority"
+        },
+        {
+          "id": "batch-05-36",
+          "text": "objective"
+        },
+        {
+          "id": "batch-05-37",
+          "text": "target"
+        },
+        {
+          "id": "batch-05-38",
+          "text": "aim"
+        },
+        {
+          "id": "batch-05-39",
+          "text": "purpose"
+        },
+        {
+          "id": "batch-05-40",
+          "text": "outcome"
+        },
+        {
+          "id": "batch-05-41",
+          "text": "impact"
+        },
+        {
+          "id": "batch-05-42",
+          "text": "effect"
+        },
+        {
+          "id": "batch-05-43",
+          "text": "organization"
+        },
+        {
+          "id": "batch-05-44",
+          "text": "institution"
+        },
+        {
+          "id": "batch-05-45",
+          "text": "department"
+        },
+        {
+          "id": "batch-05-46",
+          "text": "management"
+        },
+        {
+          "id": "batch-05-47",
+          "text": "operation"
+        },
+        {
+          "id": "batch-05-48",
+          "text": "process"
+        },
+        {
+          "id": "batch-05-49",
+          "text": "procedure"
+        },
+        {
+          "id": "batch-05-50",
+          "text": "policy"
+        },
+        {
+          "id": "batch-05-51",
+          "text": "regulation"
+        },
+        {
+          "id": "batch-05-52",
+          "text": "rule"
+        },
+        {
+          "id": "batch-05-53",
+          "text": "standard"
+        },
+        {
+          "id": "batch-05-54",
+          "text": "guideline"
+        },
+        {
+          "id": "batch-05-55",
+          "text": "requirement"
+        },
+        {
+          "id": "batch-05-56",
+          "text": "resource"
+        },
+        {
+          "id": "batch-05-57",
+          "text": "budget"
+        },
+        {
+          "id": "batch-05-58",
+          "text": "cost"
+        },
+        {
+          "id": "batch-05-59",
+          "text": "price"
+        },
+        {
+          "id": "batch-05-60",
+          "text": "value"
+        },
+        {
+          "id": "batch-05-61",
+          "text": "benefit"
+        },
+        {
+          "id": "batch-05-62",
+          "text": "profit"
+        },
+        {
+          "id": "batch-05-63",
+          "text": "loss"
+        },
+        {
+          "id": "batch-05-64",
+          "text": "data"
+        },
+        {
+          "id": "batch-05-65",
+          "text": "information"
+        },
+        {
+          "id": "batch-05-66",
+          "text": "statistic"
+        },
+        {
+          "id": "batch-05-67",
+          "text": "figure"
+        },
+        {
+          "id": "batch-05-68",
+          "text": "number"
+        },
+        {
+          "id": "batch-05-69",
+          "text": "ratio"
+        },
+        {
+          "id": "batch-05-70",
+          "text": "rate"
+        },
+        {
+          "id": "batch-05-71",
+          "text": "percentage"
+        },
+        {
+          "id": "batch-05-72",
+          "text": "average"
+        },
+        {
+          "id": "batch-05-73",
+          "text": "total"
+        },
+        {
+          "id": "batch-05-74",
+          "text": "sum"
+        },
+        {
+          "id": "batch-05-75",
+          "text": "volume"
+        },
+        {
+          "id": "batch-05-76",
+          "text": "capacity"
+        },
+        {
+          "id": "batch-05-77",
+          "text": "limit"
+        },
+        {
+          "id": "batch-05-78",
+          "text": "range"
+        },
+        {
+          "id": "batch-05-79",
+          "text": "scale"
+        },
+        {
+          "id": "batch-05-80",
+          "text": "measure"
+        },
+        {
+          "id": "batch-05-81",
+          "text": "measurement"
+        },
+        {
+          "id": "batch-05-82",
+          "text": "indicator"
+        },
+        {
+          "id": "batch-05-83",
+          "text": "index"
+        },
+        {
+          "id": "batch-05-84",
+          "text": "report"
+        },
+        {
+          "id": "batch-05-85",
+          "text": "news"
+        },
+        {
+          "id": "batch-05-86",
+          "text": "media"
+        },
+        {
+          "id": "batch-05-87",
+          "text": "press"
+        },
+        {
+          "id": "batch-05-88",
+          "text": "article"
+        },
+        {
+          "id": "batch-05-89",
+          "text": "source"
+        },
+        {
+          "id": "batch-05-90",
+          "text": "statement"
+        },
+        {
+          "id": "batch-05-91",
+          "text": "announcement"
+        },
+        {
+          "id": "batch-05-92",
+          "text": "event"
+        },
+        {
+          "id": "batch-05-93",
+          "text": "incident"
+        },
+        {
+          "id": "batch-05-94",
+          "text": "case"
+        },
+        {
+          "id": "batch-05-95",
+          "text": "debate"
+        },
+        {
+          "id": "batch-05-96",
+          "text": "discussion"
+        },
+        {
+          "id": "batch-05-97",
+          "text": "comment"
+        },
+        {
+          "id": "batch-05-98",
+          "text": "opinion"
+        },
+        {
+          "id": "batch-05-99",
+          "text": "response"
+        },
+        {
+          "id": "batch-05-100",
+          "text": "reaction"
+        },
+        {
+          "id": "batch-05-101",
+          "text": "result"
+        },
+        {
+          "id": "batch-05-102",
+          "text": "identify"
+        },
+        {
+          "id": "batch-05-103",
+          "text": "determine"
+        },
+        {
+          "id": "batch-05-104",
+          "text": "define"
+        },
+        {
+          "id": "batch-05-105",
+          "text": "establish"
+        },
+        {
+          "id": "batch-05-106",
+          "text": "maintain"
+        },
+        {
+          "id": "batch-05-107",
+          "text": "manage"
+        },
+        {
+          "id": "batch-05-108",
+          "text": "control"
+        },
+        {
+          "id": "batch-05-109",
+          "text": "monitor"
+        },
+        {
+          "id": "batch-05-110",
+          "text": "evaluate"
+        },
+        {
+          "id": "batch-05-111",
+          "text": "assess"
+        },
+        {
+          "id": "batch-05-112",
+          "text": "compare"
+        },
+        {
+          "id": "batch-05-113",
+          "text": "contrast"
+        },
+        {
+          "id": "batch-05-114",
+          "text": "examine"
+        },
+        {
+          "id": "batch-05-115",
+          "text": "review"
+        },
+        {
+          "id": "batch-05-116",
+          "text": "observe"
+        },
+        {
+          "id": "batch-05-117",
+          "text": "recognize"
+        },
+        {
+          "id": "batch-05-118",
+          "text": "confirm"
+        },
+        {
+          "id": "batch-05-119",
+          "text": "verify"
+        },
+        {
+          "id": "batch-05-120",
+          "text": "assume"
+        },
+        {
+          "id": "batch-05-121",
+          "text": "indicate"
+        },
+        {
+          "id": "batch-05-122",
+          "text": "suggest"
+        },
+        {
+          "id": "batch-05-123",
+          "text": "significant"
+        },
+        {
+          "id": "batch-05-124",
+          "text": "important"
+        },
+        {
+          "id": "batch-05-125",
+          "text": "essential"
+        },
+        {
+          "id": "batch-05-126",
+          "text": "critical"
+        },
+        {
+          "id": "batch-05-127",
+          "text": "key"
+        },
+        {
+          "id": "batch-05-128",
+          "text": "major"
+        },
+        {
+          "id": "batch-05-129",
+          "text": "minor"
+        },
+        {
+          "id": "batch-05-130",
+          "text": "primary"
+        },
+        {
+          "id": "batch-05-131",
+          "text": "secondary"
+        },
+        {
+          "id": "batch-05-132",
+          "text": "overall"
+        },
+        {
+          "id": "batch-05-133",
+          "text": "general"
+        },
+        {
+          "id": "batch-05-134",
+          "text": "specific"
+        },
+        {
+          "id": "batch-05-135",
+          "text": "particular"
+        },
+        {
+          "id": "batch-05-136",
+          "text": "individual"
+        },
+        {
+          "id": "batch-05-137",
+          "text": "collective"
+        },
+        {
+          "id": "batch-05-138",
+          "text": "potential"
+        },
+        {
+          "id": "batch-05-139",
+          "text": "possible"
+        },
+        {
+          "id": "batch-05-140",
+          "text": "likely"
+        },
+        {
+          "id": "batch-05-141",
+          "text": "unlikely"
+        },
+        {
+          "id": "batch-05-142",
+          "text": "relevant"
+        },
+        {
+          "id": "batch-05-143",
+          "text": "therefore"
+        },
+        {
+          "id": "batch-05-144",
+          "text": "however"
+        },
+        {
+          "id": "batch-05-145",
+          "text": "otherwise"
+        },
+        {
+          "id": "batch-05-146",
+          "text": "moreover"
+        },
+        {
+          "id": "batch-05-147",
+          "text": "furthermore"
+        },
+        {
+          "id": "batch-05-148",
+          "text": "meanwhile"
+        },
+        {
+          "id": "batch-05-149",
+          "text": "instead"
+        },
+        {
+          "id": "batch-05-150",
+          "text": "similarly"
+        },
+        {
+          "id": "batch-05-151",
+          "text": "likewise"
+        },
+        {
+          "id": "batch-05-152",
+          "text": "nevertheless"
+        },
+        {
+          "id": "batch-05-153",
+          "text": "nonetheless"
+        },
+        {
+          "id": "batch-05-154",
+          "text": "consequently"
+        },
+        {
+          "id": "batch-05-155",
+          "text": "additionally"
+        }
+      ]
+    },
+    {
+      "id": "batch-06",
+      "title": "第 6 批",
+      "range": "约 Top 1251–1500",
+      "words": [
+        {
+          "id": "batch-06-1",
+          "text": "concept"
+        },
+        {
+          "id": "batch-06-2",
+          "text": "definition"
+        },
+        {
+          "id": "batch-06-3",
+          "text": "category"
+        },
+        {
+          "id": "batch-06-4",
+          "text": "classification"
+        },
+        {
+          "id": "batch-06-5",
+          "text": "structure"
+        },
+        {
+          "id": "batch-06-6",
+          "text": "function"
+        },
+        {
+          "id": "batch-06-7",
+          "text": "role"
+        },
+        {
+          "id": "batch-06-8",
+          "text": "relationship"
+        },
+        {
+          "id": "batch-06-9",
+          "text": "interaction"
+        },
+        {
+          "id": "batch-06-10",
+          "text": "connection"
+        },
+        {
+          "id": "batch-06-11",
+          "text": "network"
+        },
+        {
+          "id": "batch-06-12",
+          "text": "system"
+        },
+        {
+          "id": "batch-06-13",
+          "text": "mechanism"
+        },
+        {
+          "id": "batch-06-14",
+          "text": "model"
+        },
+        {
+          "id": "batch-06-15",
+          "text": "process"
+        },
+        {
+          "id": "batch-06-16",
+          "text": "workflow"
+        },
+        {
+          "id": "batch-06-17",
+          "text": "pipeline"
+        },
+        {
+          "id": "batch-06-18",
+          "text": "architecture"
+        },
+        {
+          "id": "batch-06-19",
+          "text": "framework"
+        },
+        {
+          "id": "batch-06-20",
+          "text": "platform"
+        },
+        {
+          "id": "batch-06-21",
+          "text": "task"
+        },
+        {
+          "id": "batch-06-22",
+          "text": "assignment"
+        },
+        {
+          "id": "batch-06-23",
+          "text": "responsibility"
+        },
+        {
+          "id": "batch-06-24",
+          "text": "duty"
+        },
+        {
+          "id": "batch-06-25",
+          "text": "project"
+        },
+        {
+          "id": "batch-06-26",
+          "text": "phase"
+        },
+        {
+          "id": "batch-06-27",
+          "text": "stage"
+        },
+        {
+          "id": "batch-06-28",
+          "text": "step"
+        },
+        {
+          "id": "batch-06-29",
+          "text": "procedure"
+        },
+        {
+          "id": "batch-06-30",
+          "text": "operation"
+        },
+        {
+          "id": "batch-06-31",
+          "text": "execution"
+        },
+        {
+          "id": "batch-06-32",
+          "text": "implementation"
+        },
+        {
+          "id": "batch-06-33",
+          "text": "deployment"
+        },
+        {
+          "id": "batch-06-34",
+          "text": "maintenance"
+        },
+        {
+          "id": "batch-06-35",
+          "text": "support"
+        },
+        {
+          "id": "batch-06-36",
+          "text": "service"
+        },
+        {
+          "id": "batch-06-37",
+          "text": "solution"
+        },
+        {
+          "id": "batch-06-38",
+          "text": "delivery"
+        },
+        {
+          "id": "batch-06-39",
+          "text": "performance"
+        },
+        {
+          "id": "batch-06-40",
+          "text": "efficiency"
+        },
+        {
+          "id": "batch-06-41",
+          "text": "analysis"
+        },
+        {
+          "id": "batch-06-42",
+          "text": "evaluation"
+        },
+        {
+          "id": "batch-06-43",
+          "text": "assessment"
+        },
+        {
+          "id": "batch-06-44",
+          "text": "review"
+        },
+        {
+          "id": "batch-06-45",
+          "text": "inspection"
+        },
+        {
+          "id": "batch-06-46",
+          "text": "investigation"
+        },
+        {
+          "id": "batch-06-47",
+          "text": "research"
+        },
+        {
+          "id": "batch-06-48",
+          "text": "study"
+        },
+        {
+          "id": "batch-06-49",
+          "text": "experiment"
+        },
+        {
+          "id": "batch-06-50",
+          "text": "test"
+        },
+        {
+          "id": "batch-06-51",
+          "text": "trial"
+        },
+        {
+          "id": "batch-06-52",
+          "text": "validation"
+        },
+        {
+          "id": "batch-06-53",
+          "text": "verification"
+        },
+        {
+          "id": "batch-06-54",
+          "text": "comparison"
+        },
+        {
+          "id": "batch-06-55",
+          "text": "contrast"
+        },
+        {
+          "id": "batch-06-56",
+          "text": "criteria"
+        },
+        {
+          "id": "batch-06-57",
+          "text": "standard"
+        },
+        {
+          "id": "batch-06-58",
+          "text": "benchmark"
+        },
+        {
+          "id": "batch-06-59",
+          "text": "metric"
+        },
+        {
+          "id": "batch-06-60",
+          "text": "indicator"
+        },
+        {
+          "id": "batch-06-61",
+          "text": "achieve"
+        },
+        {
+          "id": "batch-06-62",
+          "text": "acquire"
+        },
+        {
+          "id": "batch-06-63",
+          "text": "apply"
+        },
+        {
+          "id": "batch-06-64",
+          "text": "allocate"
+        },
+        {
+          "id": "batch-06-65",
+          "text": "arrange"
+        },
+        {
+          "id": "batch-06-66",
+          "text": "assume"
+        },
+        {
+          "id": "batch-06-67",
+          "text": "avoid"
+        },
+        {
+          "id": "batch-06-68",
+          "text": "conduct"
+        },
+        {
+          "id": "batch-06-69",
+          "text": "confirm"
+        },
+        {
+          "id": "batch-06-70",
+          "text": "consider"
+        },
+        {
+          "id": "batch-06-71",
+          "text": "construct"
+        },
+        {
+          "id": "batch-06-72",
+          "text": "contribute"
+        },
+        {
+          "id": "batch-06-73",
+          "text": "coordinate"
+        },
+        {
+          "id": "batch-06-74",
+          "text": "demonstrate"
+        },
+        {
+          "id": "batch-06-75",
+          "text": "determine"
+        },
+        {
+          "id": "batch-06-76",
+          "text": "eliminate"
+        },
+        {
+          "id": "batch-06-77",
+          "text": "enable"
+        },
+        {
+          "id": "batch-06-78",
+          "text": "enhance"
+        },
+        {
+          "id": "batch-06-79",
+          "text": "ensure"
+        },
+        {
+          "id": "batch-06-80",
+          "text": "establish"
+        },
+        {
+          "id": "batch-06-81",
+          "text": "estimate"
+        },
+        {
+          "id": "batch-06-82",
+          "text": "status"
+        },
+        {
+          "id": "batch-06-83",
+          "text": "state"
+        },
+        {
+          "id": "batch-06-84",
+          "text": "condition"
+        },
+        {
+          "id": "batch-06-85",
+          "text": "trend"
+        },
+        {
+          "id": "batch-06-86",
+          "text": "variation"
+        },
+        {
+          "id": "batch-06-87",
+          "text": "shift"
+        },
+        {
+          "id": "batch-06-88",
+          "text": "change"
+        },
+        {
+          "id": "batch-06-89",
+          "text": "growth"
+        },
+        {
+          "id": "batch-06-90",
+          "text": "decline"
+        },
+        {
+          "id": "batch-06-91",
+          "text": "increase"
+        },
+        {
+          "id": "batch-06-92",
+          "text": "decrease"
+        },
+        {
+          "id": "batch-06-93",
+          "text": "impact"
+        },
+        {
+          "id": "batch-06-94",
+          "text": "influence"
+        },
+        {
+          "id": "batch-06-95",
+          "text": "effect"
+        },
+        {
+          "id": "batch-06-96",
+          "text": "outcome"
+        },
+        {
+          "id": "batch-06-97",
+          "text": "result"
+        },
+        {
+          "id": "batch-06-98",
+          "text": "consequence"
+        },
+        {
+          "id": "batch-06-99",
+          "text": "response"
+        },
+        {
+          "id": "batch-06-100",
+          "text": "reaction"
+        },
+        {
+          "id": "batch-06-101",
+          "text": "feedback"
+        },
+        {
+          "id": "batch-06-102",
+          "text": "efficient"
+        },
+        {
+          "id": "batch-06-103",
+          "text": "effective"
+        },
+        {
+          "id": "batch-06-104",
+          "text": "reliable"
+        },
+        {
+          "id": "batch-06-105",
+          "text": "stable"
+        },
+        {
+          "id": "batch-06-106",
+          "text": "flexible"
+        },
+        {
+          "id": "batch-06-107",
+          "text": "scalable"
+        },
+        {
+          "id": "batch-06-108",
+          "text": "complex"
+        },
+        {
+          "id": "batch-06-109",
+          "text": "simple"
+        },
+        {
+          "id": "batch-06-110",
+          "text": "robust"
+        },
+        {
+          "id": "batch-06-111",
+          "text": "critical"
+        },
+        {
+          "id": "batch-06-112",
+          "text": "optional"
+        },
+        {
+          "id": "batch-06-113",
+          "text": "mandatory"
+        },
+        {
+          "id": "batch-06-114",
+          "text": "temporary"
+        },
+        {
+          "id": "batch-06-115",
+          "text": "permanent"
+        },
+        {
+          "id": "batch-06-116",
+          "text": "internal"
+        },
+        {
+          "id": "batch-06-117",
+          "text": "external"
+        },
+        {
+          "id": "batch-06-118",
+          "text": "independent"
+        },
+        {
+          "id": "batch-06-119",
+          "text": "dependent"
+        },
+        {
+          "id": "batch-06-120",
+          "text": "consistent"
+        },
+        {
+          "id": "batch-06-121",
+          "text": "variable"
+        },
+        {
+          "id": "batch-06-122",
+          "text": "scope"
+        },
+        {
+          "id": "batch-06-123",
+          "text": "range"
+        },
+        {
+          "id": "batch-06-124",
+          "text": "extent"
+        },
+        {
+          "id": "batch-06-125",
+          "text": "level"
+        },
+        {
+          "id": "batch-06-126",
+          "text": "degree"
+        },
+        {
+          "id": "batch-06-127",
+          "text": "scale"
+        },
+        {
+          "id": "batch-06-128",
+          "text": "ratio"
+        },
+        {
+          "id": "batch-06-129",
+          "text": "proportion"
+        },
+        {
+          "id": "batch-06-130",
+          "text": "balance"
+        },
+        {
+          "id": "batch-06-131",
+          "text": "distribution"
+        },
+        {
+          "id": "batch-06-132",
+          "text": "coverage"
+        },
+        {
+          "id": "batch-06-133",
+          "text": "density"
+        },
+        {
+          "id": "batch-06-134",
+          "text": "frequency"
+        },
+        {
+          "id": "batch-06-135",
+          "text": "duration"
+        },
+        {
+          "id": "batch-06-136",
+          "text": "interval"
+        },
+        {
+          "id": "batch-06-137",
+          "text": "cycle"
+        },
+        {
+          "id": "batch-06-138",
+          "text": "accordingly"
+        },
+        {
+          "id": "batch-06-139",
+          "text": "thereby"
+        },
+        {
+          "id": "batch-06-140",
+          "text": "thereafter"
+        },
+        {
+          "id": "batch-06-141",
+          "text": "hence"
+        },
+        {
+          "id": "batch-06-142",
+          "text": "thus"
+        },
+        {
+          "id": "batch-06-143",
+          "text": "alternatively"
+        },
+        {
+          "id": "batch-06-144",
+          "text": "conversely"
+        },
+        {
+          "id": "batch-06-145",
+          "text": "specifically"
+        },
+        {
+          "id": "batch-06-146",
+          "text": "approximately"
+        },
+        {
+          "id": "batch-06-147",
+          "text": "relatively"
+        },
+        {
+          "id": "batch-06-148",
+          "text": "significantly"
+        }
+      ]
+    },
+    {
+      "id": "batch-07",
+      "title": "第 7 批",
+      "range": "约 Top 1501–1750",
+      "words": [
+        {
+          "id": "batch-07-1",
+          "text": "policy"
+        },
+        {
+          "id": "batch-07-2",
+          "text": "strategy"
+        },
+        {
+          "id": "batch-07-3",
+          "text": "vision"
+        },
+        {
+          "id": "batch-07-4",
+          "text": "mission"
+        },
+        {
+          "id": "batch-07-5",
+          "text": "objective"
+        },
+        {
+          "id": "batch-07-6",
+          "text": "initiative"
+        },
+        {
+          "id": "batch-07-7",
+          "text": "priority"
+        },
+        {
+          "id": "batch-07-8",
+          "text": "agenda"
+        },
+        {
+          "id": "batch-07-9",
+          "text": "framework"
+        },
+        {
+          "id": "batch-07-10",
+          "text": "guideline"
+        },
+        {
+          "id": "batch-07-11",
+          "text": "principle"
+        },
+        {
+          "id": "batch-07-12",
+          "text": "ethics"
+        },
+        {
+          "id": "batch-07-13",
+          "text": "value"
+        },
+        {
+          "id": "batch-07-14",
+          "text": "belief"
+        },
+        {
+          "id": "batch-07-15",
+          "text": "culture"
+        },
+        {
+          "id": "batch-07-16",
+          "text": "identity"
+        },
+        {
+          "id": "batch-07-17",
+          "text": "reputation"
+        },
+        {
+          "id": "batch-07-18",
+          "text": "credibility"
+        },
+        {
+          "id": "batch-07-19",
+          "text": "trust"
+        },
+        {
+          "id": "batch-07-20",
+          "text": "confidence"
+        },
+        {
+          "id": "batch-07-21",
+          "text": "market"
+        },
+        {
+          "id": "batch-07-22",
+          "text": "industry"
+        },
+        {
+          "id": "batch-07-23",
+          "text": "sector"
+        },
+        {
+          "id": "batch-07-24",
+          "text": "economy"
+        },
+        {
+          "id": "batch-07-25",
+          "text": "finance"
+        },
+        {
+          "id": "batch-07-26",
+          "text": "investment"
+        },
+        {
+          "id": "batch-07-27",
+          "text": "capital"
+        },
+        {
+          "id": "batch-07-28",
+          "text": "asset"
+        },
+        {
+          "id": "batch-07-29",
+          "text": "liability"
+        },
+        {
+          "id": "batch-07-30",
+          "text": "revenue"
+        },
+        {
+          "id": "batch-07-31",
+          "text": "income"
+        },
+        {
+          "id": "batch-07-32",
+          "text": "expense"
+        },
+        {
+          "id": "batch-07-33",
+          "text": "budget"
+        },
+        {
+          "id": "batch-07-34",
+          "text": "cost"
+        },
+        {
+          "id": "batch-07-35",
+          "text": "pricing"
+        },
+        {
+          "id": "batch-07-36",
+          "text": "profitability"
+        },
+        {
+          "id": "batch-07-37",
+          "text": "competition"
+        },
+        {
+          "id": "batch-07-38",
+          "text": "demand"
+        },
+        {
+          "id": "batch-07-39",
+          "text": "supply"
+        },
+        {
+          "id": "batch-07-40",
+          "text": "growth"
+        },
+        {
+          "id": "batch-07-41",
+          "text": "society"
+        },
+        {
+          "id": "batch-07-42",
+          "text": "community"
+        },
+        {
+          "id": "batch-07-43",
+          "text": "population"
+        },
+        {
+          "id": "batch-07-44",
+          "text": "demographic"
+        },
+        {
+          "id": "batch-07-45",
+          "text": "public"
+        },
+        {
+          "id": "batch-07-46",
+          "text": "private"
+        },
+        {
+          "id": "batch-07-47",
+          "text": "citizen"
+        },
+        {
+          "id": "batch-07-48",
+          "text": "authority"
+        },
+        {
+          "id": "batch-07-49",
+          "text": "government"
+        },
+        {
+          "id": "batch-07-50",
+          "text": "administration"
+        },
+        {
+          "id": "batch-07-51",
+          "text": "regulation"
+        },
+        {
+          "id": "batch-07-52",
+          "text": "legislation"
+        },
+        {
+          "id": "batch-07-53",
+          "text": "law"
+        },
+        {
+          "id": "batch-07-54",
+          "text": "court"
+        },
+        {
+          "id": "batch-07-55",
+          "text": "justice"
+        },
+        {
+          "id": "batch-07-56",
+          "text": "rights"
+        },
+        {
+          "id": "batch-07-57",
+          "text": "freedom"
+        },
+        {
+          "id": "batch-07-58",
+          "text": "responsibility"
+        },
+        {
+          "id": "batch-07-59",
+          "text": "security"
+        },
+        {
+          "id": "batch-07-60",
+          "text": "safety"
+        },
+        {
+          "id": "batch-07-61",
+          "text": "adopt"
+        },
+        {
+          "id": "batch-07-62",
+          "text": "adjust"
+        },
+        {
+          "id": "batch-07-63",
+          "text": "allocate"
+        },
+        {
+          "id": "batch-07-64",
+          "text": "anticipate"
+        },
+        {
+          "id": "batch-07-65",
+          "text": "approve"
+        },
+        {
+          "id": "batch-07-66",
+          "text": "authorize"
+        },
+        {
+          "id": "batch-07-67",
+          "text": "commit"
+        },
+        {
+          "id": "batch-07-68",
+          "text": "comply"
+        },
+        {
+          "id": "batch-07-69",
+          "text": "coordinate"
+        },
+        {
+          "id": "batch-07-70",
+          "text": "expand"
+        },
+        {
+          "id": "batch-07-71",
+          "text": "facilitate"
+        },
+        {
+          "id": "batch-07-72",
+          "text": "implement"
+        },
+        {
+          "id": "batch-07-73",
+          "text": "impose"
+        },
+        {
+          "id": "batch-07-74",
+          "text": "initiate"
+        },
+        {
+          "id": "batch-07-75",
+          "text": "negotiate"
+        },
+        {
+          "id": "batch-07-76",
+          "text": "optimize"
+        },
+        {
+          "id": "batch-07-77",
+          "text": "participate"
+        },
+        {
+          "id": "batch-07-78",
+          "text": "regulate"
+        },
+        {
+          "id": "batch-07-79",
+          "text": "resolve"
+        },
+        {
+          "id": "batch-07-80",
+          "text": "respond"
+        },
+        {
+          "id": "batch-07-81",
+          "text": "strategic"
+        },
+        {
+          "id": "batch-07-82",
+          "text": "economic"
+        },
+        {
+          "id": "batch-07-83",
+          "text": "financial"
+        },
+        {
+          "id": "batch-07-84",
+          "text": "political"
+        },
+        {
+          "id": "batch-07-85",
+          "text": "legal"
+        },
+        {
+          "id": "batch-07-86",
+          "text": "social"
+        },
+        {
+          "id": "batch-07-87",
+          "text": "cultural"
+        },
+        {
+          "id": "batch-07-88",
+          "text": "ethical"
+        },
+        {
+          "id": "batch-07-89",
+          "text": "technical"
+        },
+        {
+          "id": "batch-07-90",
+          "text": "operational"
+        },
+        {
+          "id": "batch-07-91",
+          "text": "organizational"
+        },
+        {
+          "id": "batch-07-92",
+          "text": "institutional"
+        },
+        {
+          "id": "batch-07-93",
+          "text": "competitive"
+        },
+        {
+          "id": "batch-07-94",
+          "text": "innovative"
+        },
+        {
+          "id": "batch-07-95",
+          "text": "sustainable"
+        },
+        {
+          "id": "batch-07-96",
+          "text": "efficient"
+        },
+        {
+          "id": "batch-07-97",
+          "text": "productive"
+        },
+        {
+          "id": "batch-07-98",
+          "text": "profitable"
+        },
+        {
+          "id": "batch-07-99",
+          "text": "transparent"
+        },
+        {
+          "id": "batch-07-100",
+          "text": "accountable"
+        },
+        {
+          "id": "batch-07-101",
+          "text": "risk"
+        },
+        {
+          "id": "batch-07-102",
+          "text": "uncertainty"
+        },
+        {
+          "id": "batch-07-103",
+          "text": "volatility"
+        },
+        {
+          "id": "batch-07-104",
+          "text": "stability"
+        },
+        {
+          "id": "batch-07-105",
+          "text": "probability"
+        },
+        {
+          "id": "batch-07-106",
+          "text": "likelihood"
+        },
+        {
+          "id": "batch-07-107",
+          "text": "assumption"
+        },
+        {
+          "id": "batch-07-108",
+          "text": "constraint"
+        },
+        {
+          "id": "batch-07-109",
+          "text": "limitation"
+        },
+        {
+          "id": "batch-07-110",
+          "text": "dependency"
+        },
+        {
+          "id": "batch-07-111",
+          "text": "tradeoff"
+        },
+        {
+          "id": "batch-07-112",
+          "text": "scenario"
+        },
+        {
+          "id": "batch-07-113",
+          "text": "forecast"
+        },
+        {
+          "id": "batch-07-114",
+          "text": "projection"
+        },
+        {
+          "id": "batch-07-115",
+          "text": "estimate"
+        },
+        {
+          "id": "batch-07-116",
+          "text": "evaluation"
+        },
+        {
+          "id": "batch-07-117",
+          "text": "assessment"
+        },
+        {
+          "id": "batch-07-118",
+          "text": "review"
+        },
+        {
+          "id": "batch-07-119",
+          "text": "audit"
+        },
+        {
+          "id": "batch-07-120",
+          "text": "compliance"
+        },
+        {
+          "id": "batch-07-121",
+          "text": "subsequently"
+        },
+        {
+          "id": "batch-07-122",
+          "text": "ultimately"
+        },
+        {
+          "id": "batch-07-123",
+          "text": "predominantly"
+        },
+        {
+          "id": "batch-07-124",
+          "text": "collectively"
+        },
+        {
+          "id": "batch-07-125",
+          "text": "externally"
+        },
+        {
+          "id": "batch-07-126",
+          "text": "internally"
+        },
+        {
+          "id": "batch-07-127",
+          "text": "implicitly"
+        },
+        {
+          "id": "batch-07-128",
+          "text": "explicitly"
+        },
+        {
+          "id": "batch-07-129",
+          "text": "increasingly"
+        },
+        {
+          "id": "batch-07-130",
+          "text": "effectively"
+        }
+      ]
+    },
+    {
+      "id": "batch-08",
+      "title": "第 8 批",
+      "range": "约 Top 1751–2000",
+      "words": [
+        {
+          "id": "batch-08-1",
+          "text": "phenomenon"
+        },
+        {
+          "id": "batch-08-2",
+          "text": "conceptual"
+        },
+        {
+          "id": "batch-08-3",
+          "text": "interpretation"
+        },
+        {
+          "id": "batch-08-4",
+          "text": "implication"
+        },
+        {
+          "id": "batch-08-5",
+          "text": "assumption"
+        },
+        {
+          "id": "batch-08-6",
+          "text": "hypothesis"
+        },
+        {
+          "id": "batch-08-7",
+          "text": "conclusion"
+        },
+        {
+          "id": "batch-08-8",
+          "text": "summary"
+        },
+        {
+          "id": "batch-08-9",
+          "text": "overview"
+        },
+        {
+          "id": "batch-08-10",
+          "text": "insight"
+        },
+        {
+          "id": "batch-08-11",
+          "text": "evidence"
+        },
+        {
+          "id": "batch-08-12",
+          "text": "justification"
+        },
+        {
+          "id": "batch-08-13",
+          "text": "validation"
+        },
+        {
+          "id": "batch-08-14",
+          "text": "reliability"
+        },
+        {
+          "id": "batch-08-15",
+          "text": "consistency"
+        },
+        {
+          "id": "batch-08-16",
+          "text": "accuracy"
+        },
+        {
+          "id": "batch-08-17",
+          "text": "precision"
+        },
+        {
+          "id": "batch-08-18",
+          "text": "relevance"
+        },
+        {
+          "id": "batch-08-19",
+          "text": "significance"
+        },
+        {
+          "id": "batch-08-20",
+          "text": "limitation"
+        },
+        {
+          "id": "batch-08-21",
+          "text": "research"
+        },
+        {
+          "id": "batch-08-22",
+          "text": "methodology"
+        },
+        {
+          "id": "batch-08-23",
+          "text": "approach"
+        },
+        {
+          "id": "batch-08-24",
+          "text": "framework"
+        },
+        {
+          "id": "batch-08-25",
+          "text": "modeling"
+        },
+        {
+          "id": "batch-08-26",
+          "text": "simulation"
+        },
+        {
+          "id": "batch-08-27",
+          "text": "experiment"
+        },
+        {
+          "id": "batch-08-28",
+          "text": "observation"
+        },
+        {
+          "id": "batch-08-29",
+          "text": "analysis"
+        },
+        {
+          "id": "batch-08-30",
+          "text": "synthesis"
+        },
+        {
+          "id": "batch-08-31",
+          "text": "evaluation"
+        },
+        {
+          "id": "batch-08-32",
+          "text": "comparison"
+        },
+        {
+          "id": "batch-08-33",
+          "text": "classification"
+        },
+        {
+          "id": "batch-08-34",
+          "text": "categorization"
+        },
+        {
+          "id": "batch-08-35",
+          "text": "correlation"
+        },
+        {
+          "id": "batch-08-36",
+          "text": "causation"
+        },
+        {
+          "id": "batch-08-37",
+          "text": "variable"
+        },
+        {
+          "id": "batch-08-38",
+          "text": "parameter"
+        },
+        {
+          "id": "batch-08-39",
+          "text": "dataset"
+        },
+        {
+          "id": "batch-08-40",
+          "text": "sample"
+        },
+        {
+          "id": "batch-08-41",
+          "text": "stakeholder"
+        },
+        {
+          "id": "batch-08-42",
+          "text": "management"
+        },
+        {
+          "id": "batch-08-43",
+          "text": "governance"
+        },
+        {
+          "id": "batch-08-44",
+          "text": "leadership"
+        },
+        {
+          "id": "batch-08-45",
+          "text": "coordination"
+        },
+        {
+          "id": "batch-08-46",
+          "text": "collaboration"
+        },
+        {
+          "id": "batch-08-47",
+          "text": "partnership"
+        },
+        {
+          "id": "batch-08-48",
+          "text": "negotiation"
+        },
+        {
+          "id": "batch-08-49",
+          "text": "alignment"
+        },
+        {
+          "id": "batch-08-50",
+          "text": "execution"
+        },
+        {
+          "id": "batch-08-51",
+          "text": "implementation"
+        },
+        {
+          "id": "batch-08-52",
+          "text": "monitoring"
+        },
+        {
+          "id": "batch-08-53",
+          "text": "oversight"
+        },
+        {
+          "id": "batch-08-54",
+          "text": "accountability"
+        },
+        {
+          "id": "batch-08-55",
+          "text": "transparency"
+        },
+        {
+          "id": "batch-08-56",
+          "text": "compliance"
+        },
+        {
+          "id": "batch-08-57",
+          "text": "regulation"
+        },
+        {
+          "id": "batch-08-58",
+          "text": "authorization"
+        },
+        {
+          "id": "batch-08-59",
+          "text": "approval"
+        },
+        {
+          "id": "batch-08-60",
+          "text": "documentation"
+        },
+        {
+          "id": "batch-08-61",
+          "text": "metric"
+        },
+        {
+          "id": "batch-08-62",
+          "text": "indicator"
+        },
+        {
+          "id": "batch-08-63",
+          "text": "benchmark"
+        },
+        {
+          "id": "batch-08-64",
+          "text": "index"
+        },
+        {
+          "id": "batch-08-65",
+          "text": "distribution"
+        },
+        {
+          "id": "batch-08-66",
+          "text": "variance"
+        },
+        {
+          "id": "batch-08-67",
+          "text": "deviation"
+        },
+        {
+          "id": "batch-08-68",
+          "text": "margin"
+        },
+        {
+          "id": "batch-08-69",
+          "text": "threshold"
+        },
+        {
+          "id": "batch-08-70",
+          "text": "baseline"
+        },
+        {
+          "id": "batch-08-71",
+          "text": "trend"
+        },
+        {
+          "id": "batch-08-72",
+          "text": "pattern"
+        },
+        {
+          "id": "batch-08-73",
+          "text": "frequency"
+        },
+        {
+          "id": "batch-08-74",
+          "text": "interval"
+        },
+        {
+          "id": "batch-08-75",
+          "text": "duration"
+        },
+        {
+          "id": "batch-08-76",
+          "text": "cycle"
+        },
+        {
+          "id": "batch-08-77",
+          "text": "ratio"
+        },
+        {
+          "id": "batch-08-78",
+          "text": "proportion"
+        },
+        {
+          "id": "batch-08-79",
+          "text": "allocation"
+        },
+        {
+          "id": "batch-08-80",
+          "text": "utilization"
+        },
+        {
+          "id": "batch-08-81",
+          "text": "capacity"
+        },
+        {
+          "id": "batch-08-82",
+          "text": "derive"
+        },
+        {
+          "id": "batch-08-83",
+          "text": "infer"
+        },
+        {
+          "id": "batch-08-84",
+          "text": "deduce"
+        },
+        {
+          "id": "batch-08-85",
+          "text": "interpret"
+        },
+        {
+          "id": "batch-08-86",
+          "text": "formulate"
+        },
+        {
+          "id": "batch-08-87",
+          "text": "articulate"
+        },
+        {
+          "id": "batch-08-88",
+          "text": "demonstrate"
+        },
+        {
+          "id": "batch-08-89",
+          "text": "illustrate"
+        },
+        {
+          "id": "batch-08-90",
+          "text": "validate"
+        },
+        {
+          "id": "batch-08-91",
+          "text": "substantiate"
+        },
+        {
+          "id": "batch-08-92",
+          "text": "corroborate"
+        },
+        {
+          "id": "batch-08-93",
+          "text": "quantify"
+        },
+        {
+          "id": "batch-08-94",
+          "text": "qualify"
+        },
+        {
+          "id": "batch-08-95",
+          "text": "specify"
+        },
+        {
+          "id": "batch-08-96",
+          "text": "generalize"
+        },
+        {
+          "id": "batch-08-97",
+          "text": "differentiate"
+        },
+        {
+          "id": "batch-08-98",
+          "text": "integrate"
+        },
+        {
+          "id": "batch-08-99",
+          "text": "synthesize"
+        },
+        {
+          "id": "batch-08-100",
+          "text": "optimize"
+        },
+        {
+          "id": "batch-08-101",
+          "text": "prioritize"
+        },
+        {
+          "id": "batch-08-102",
+          "text": "empirical"
+        },
+        {
+          "id": "batch-08-103",
+          "text": "theoretical"
+        },
+        {
+          "id": "batch-08-104",
+          "text": "analytical"
+        },
+        {
+          "id": "batch-08-105",
+          "text": "systematic"
+        },
+        {
+          "id": "batch-08-106",
+          "text": "methodical"
+        },
+        {
+          "id": "batch-08-107",
+          "text": "comprehensive"
+        },
+        {
+          "id": "batch-08-108",
+          "text": "robust"
+        },
+        {
+          "id": "batch-08-109",
+          "text": "rigorous"
+        },
+        {
+          "id": "batch-08-110",
+          "text": "consistent"
+        },
+        {
+          "id": "batch-08-111",
+          "text": "coherent"
+        },
+        {
+          "id": "batch-08-112",
+          "text": "explicit"
+        },
+        {
+          "id": "batch-08-113",
+          "text": "implicit"
+        },
+        {
+          "id": "batch-08-114",
+          "text": "quantitative"
+        },
+        {
+          "id": "batch-08-115",
+          "text": "qualitative"
+        },
+        {
+          "id": "batch-08-116",
+          "text": "comparative"
+        },
+        {
+          "id": "batch-08-117",
+          "text": "descriptive"
+        },
+        {
+          "id": "batch-08-118",
+          "text": "predictive"
+        },
+        {
+          "id": "batch-08-119",
+          "text": "explanatory"
+        },
+        {
+          "id": "batch-08-120",
+          "text": "exploratory"
+        },
+        {
+          "id": "batch-08-121",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "batch-08-122",
+          "text": "whereas"
+        },
+        {
+          "id": "batch-08-123",
+          "text": "thereby"
+        },
+        {
+          "id": "batch-08-124",
+          "text": "therein"
+        },
+        {
+          "id": "batch-08-125",
+          "text": "thereof"
+        },
+        {
+          "id": "batch-08-126",
+          "text": "hereby"
+        },
+        {
+          "id": "batch-08-127",
+          "text": "henceforth"
+        },
+        {
+          "id": "batch-08-128",
+          "text": "accordingly"
+        },
+        {
+          "id": "batch-08-129",
+          "text": "consequently"
+        },
+        {
+          "id": "batch-08-130",
+          "text": "alternatively"
+        }
+      ]
+    },
+    {
+      "id": "batch-09",
+      "title": "第 9 批",
+      "range": "约 Top 2001–2250",
+      "words": [
+        {
+          "id": "batch-09-1",
+          "text": "notion"
+        },
+        {
+          "id": "batch-09-2",
+          "text": "premise"
+        },
+        {
+          "id": "batch-09-3",
+          "text": "inference"
+        },
+        {
+          "id": "batch-09-4",
+          "text": "assertion"
+        },
+        {
+          "id": "batch-09-5",
+          "text": "proposition"
+        },
+        {
+          "id": "batch-09-6",
+          "text": "paradigm"
+        },
+        {
+          "id": "batch-09-7",
+          "text": "dimension"
+        },
+        {
+          "id": "batch-09-8",
+          "text": "scope"
+        },
+        {
+          "id": "batch-09-9",
+          "text": "contextual"
+        },
+        {
+          "id": "batch-09-10",
+          "text": "conceptualization"
+        },
+        {
+          "id": "batch-09-11",
+          "text": "rationale"
+        },
+        {
+          "id": "batch-09-12",
+          "text": "justification"
+        },
+        {
+          "id": "batch-09-13",
+          "text": "coherence"
+        },
+        {
+          "id": "batch-09-14",
+          "text": "consensus"
+        },
+        {
+          "id": "batch-09-15",
+          "text": "ambiguity"
+        },
+        {
+          "id": "batch-09-16",
+          "text": "clarity"
+        },
+        {
+          "id": "batch-09-17",
+          "text": "consistency"
+        },
+        {
+          "id": "batch-09-18",
+          "text": "alignment"
+        },
+        {
+          "id": "batch-09-19",
+          "text": "integration"
+        },
+        {
+          "id": "batch-09-20",
+          "text": "synthesis"
+        },
+        {
+          "id": "batch-09-21",
+          "text": "procurement"
+        },
+        {
+          "id": "batch-09-22",
+          "text": "logistics"
+        },
+        {
+          "id": "batch-09-23",
+          "text": "inventory"
+        },
+        {
+          "id": "batch-09-24",
+          "text": "outsourcing"
+        },
+        {
+          "id": "batch-09-25",
+          "text": "vendor"
+        },
+        {
+          "id": "batch-09-26",
+          "text": "supplier"
+        },
+        {
+          "id": "batch-09-27",
+          "text": "client"
+        },
+        {
+          "id": "batch-09-28",
+          "text": "customer"
+        },
+        {
+          "id": "batch-09-29",
+          "text": "portfolio"
+        },
+        {
+          "id": "batch-09-30",
+          "text": "pipeline"
+        },
+        {
+          "id": "batch-09-31",
+          "text": "roadmap"
+        },
+        {
+          "id": "batch-09-32",
+          "text": "milestone"
+        },
+        {
+          "id": "batch-09-33",
+          "text": "deliverable"
+        },
+        {
+          "id": "batch-09-34",
+          "text": "benchmarking"
+        },
+        {
+          "id": "batch-09-35",
+          "text": "optimization"
+        },
+        {
+          "id": "batch-09-36",
+          "text": "scalability"
+        },
+        {
+          "id": "batch-09-37",
+          "text": "sustainability"
+        },
+        {
+          "id": "batch-09-38",
+          "text": "governance"
+        },
+        {
+          "id": "batch-09-39",
+          "text": "compliance"
+        },
+        {
+          "id": "batch-09-40",
+          "text": "oversight"
+        },
+        {
+          "id": "batch-09-41",
+          "text": "theoretical"
+        },
+        {
+          "id": "batch-09-42",
+          "text": "empirical"
+        },
+        {
+          "id": "batch-09-43",
+          "text": "methodological"
+        },
+        {
+          "id": "batch-09-44",
+          "text": "systematic"
+        },
+        {
+          "id": "batch-09-45",
+          "text": "analytical"
+        },
+        {
+          "id": "batch-09-46",
+          "text": "comparative"
+        },
+        {
+          "id": "batch-09-47",
+          "text": "correlative"
+        },
+        {
+          "id": "batch-09-48",
+          "text": "descriptive"
+        },
+        {
+          "id": "batch-09-49",
+          "text": "inferential"
+        },
+        {
+          "id": "batch-09-50",
+          "text": "explanatory"
+        },
+        {
+          "id": "batch-09-51",
+          "text": "predictive"
+        },
+        {
+          "id": "batch-09-52",
+          "text": "exploratory"
+        },
+        {
+          "id": "batch-09-53",
+          "text": "qualitative"
+        },
+        {
+          "id": "batch-09-54",
+          "text": "quantitative"
+        },
+        {
+          "id": "batch-09-55",
+          "text": "longitudinal"
+        },
+        {
+          "id": "batch-09-56",
+          "text": "multivariate"
+        },
+        {
+          "id": "batch-09-57",
+          "text": "regression"
+        },
+        {
+          "id": "batch-09-58",
+          "text": "estimation"
+        },
+        {
+          "id": "batch-09-59",
+          "text": "approximation"
+        },
+        {
+          "id": "batch-09-60",
+          "text": "articulate"
+        },
+        {
+          "id": "batch-09-61",
+          "text": "elaborate"
+        },
+        {
+          "id": "batch-09-62",
+          "text": "clarify"
+        },
+        {
+          "id": "batch-09-63",
+          "text": "substantiate"
+        },
+        {
+          "id": "batch-09-64",
+          "text": "refine"
+        },
+        {
+          "id": "batch-09-65",
+          "text": "revise"
+        },
+        {
+          "id": "batch-09-66",
+          "text": "amend"
+        },
+        {
+          "id": "batch-09-67",
+          "text": "adjust"
+        },
+        {
+          "id": "batch-09-68",
+          "text": "reconcile"
+        },
+        {
+          "id": "batch-09-69",
+          "text": "mediate"
+        },
+        {
+          "id": "batch-09-70",
+          "text": "facilitate"
+        },
+        {
+          "id": "batch-09-71",
+          "text": "streamline"
+        },
+        {
+          "id": "batch-09-72",
+          "text": "safeguard"
+        },
+        {
+          "id": "batch-09-73",
+          "text": "mitigate"
+        },
+        {
+          "id": "batch-09-74",
+          "text": "alleviate"
+        },
+        {
+          "id": "batch-09-75",
+          "text": "rectify"
+        },
+        {
+          "id": "batch-09-76",
+          "text": "consolidate"
+        },
+        {
+          "id": "batch-09-77",
+          "text": "leverage"
+        },
+        {
+          "id": "batch-09-78",
+          "text": "capitalize"
+        },
+        {
+          "id": "batch-09-79",
+          "text": "institutionalize"
+        },
+        {
+          "id": "batch-09-80",
+          "text": "substantial"
+        },
+        {
+          "id": "batch-09-81",
+          "text": "marginal"
+        },
+        {
+          "id": "batch-09-82",
+          "text": "incremental"
+        },
+        {
+          "id": "batch-09-83",
+          "text": "moderate"
+        },
+        {
+          "id": "batch-09-84",
+          "text": "optimal"
+        },
+        {
+          "id": "batch-09-85",
+          "text": "adequate"
+        },
+        {
+          "id": "batch-09-86",
+          "text": "insufficient"
+        },
+        {
+          "id": "batch-09-87",
+          "text": "redundant"
+        },
+        {
+          "id": "batch-09-88",
+          "text": "obsolete"
+        },
+        {
+          "id": "batch-09-89",
+          "text": "viable"
+        },
+        {
+          "id": "batch-09-90",
+          "text": "feasible"
+        },
+        {
+          "id": "batch-09-91",
+          "text": "practical"
+        },
+        {
+          "id": "batch-09-92",
+          "text": "conceptual"
+        },
+        {
+          "id": "batch-09-93",
+          "text": "structural"
+        },
+        {
+          "id": "batch-09-94",
+          "text": "operational"
+        },
+        {
+          "id": "batch-09-95",
+          "text": "functional"
+        },
+        {
+          "id": "batch-09-96",
+          "text": "situational"
+        },
+        {
+          "id": "batch-09-97",
+          "text": "conditional"
+        },
+        {
+          "id": "batch-09-98",
+          "text": "predominantly"
+        },
+        {
+          "id": "batch-09-99",
+          "text": "inherently"
+        },
+        {
+          "id": "batch-09-100",
+          "text": "arguably"
+        },
+        {
+          "id": "batch-09-101",
+          "text": "notably"
+        },
+        {
+          "id": "batch-09-102",
+          "text": "ostensibly"
+        },
+        {
+          "id": "batch-09-103",
+          "text": "effectively"
+        },
+        {
+          "id": "batch-09-104",
+          "text": "approximately"
+        },
+        {
+          "id": "batch-09-105",
+          "text": "relatively"
+        },
+        {
+          "id": "batch-09-106",
+          "text": "respectively"
+        },
+        {
+          "id": "batch-09-107",
+          "text": "collectively"
+        },
+        {
+          "id": "batch-09-108",
+          "text": "inequality"
+        },
+        {
+          "id": "batch-09-109",
+          "text": "diversity"
+        },
+        {
+          "id": "batch-09-110",
+          "text": "inclusion"
+        },
+        {
+          "id": "batch-09-111",
+          "text": "equity"
+        },
+        {
+          "id": "batch-09-112",
+          "text": "accessibility"
+        },
+        {
+          "id": "batch-09-113",
+          "text": "participation"
+        },
+        {
+          "id": "batch-09-114",
+          "text": "representation"
+        },
+        {
+          "id": "batch-09-115",
+          "text": "accountability"
+        },
+        {
+          "id": "batch-09-116",
+          "text": "transparency"
+        },
+        {
+          "id": "batch-09-117",
+          "text": "legitimacy"
+        }
+      ]
+    },
+    {
+      "id": "batch-10",
+      "title": "第 10 批",
+      "range": "约 Top 2251–2500",
+      "words": [
+        {
+          "id": "batch-10-1",
+          "text": "abstraction"
+        },
+        {
+          "id": "batch-10-2",
+          "text": "generalization"
+        },
+        {
+          "id": "batch-10-3",
+          "text": "specification"
+        },
+        {
+          "id": "batch-10-4",
+          "text": "differentiation"
+        },
+        {
+          "id": "batch-10-5",
+          "text": "interpretive"
+        },
+        {
+          "id": "batch-10-6",
+          "text": "conceptual"
+        },
+        {
+          "id": "batch-10-7",
+          "text": "thematic"
+        },
+        {
+          "id": "batch-10-8",
+          "text": "ideological"
+        },
+        {
+          "id": "batch-10-9",
+          "text": "normative"
+        },
+        {
+          "id": "batch-10-10",
+          "text": "paradigmatic"
+        },
+        {
+          "id": "batch-10-11",
+          "text": "epistemic"
+        },
+        {
+          "id": "batch-10-12",
+          "text": "heuristic"
+        },
+        {
+          "id": "batch-10-13",
+          "text": "cognitive"
+        },
+        {
+          "id": "batch-10-14",
+          "text": "perceptual"
+        },
+        {
+          "id": "batch-10-15",
+          "text": "discursive"
+        },
+        {
+          "id": "batch-10-16",
+          "text": "semantic"
+        },
+        {
+          "id": "batch-10-17",
+          "text": "syntactic"
+        },
+        {
+          "id": "batch-10-18",
+          "text": "pragmatic"
+        },
+        {
+          "id": "batch-10-19",
+          "text": "contextualized"
+        },
+        {
+          "id": "batch-10-20",
+          "text": "operationalized"
+        },
+        {
+          "id": "batch-10-21",
+          "text": "ontology"
+        },
+        {
+          "id": "batch-10-22",
+          "text": "epistemology"
+        },
+        {
+          "id": "batch-10-23",
+          "text": "method"
+        },
+        {
+          "id": "batch-10-24",
+          "text": "methodological"
+        },
+        {
+          "id": "batch-10-25",
+          "text": "analytical"
+        },
+        {
+          "id": "batch-10-26",
+          "text": "theoretical"
+        },
+        {
+          "id": "batch-10-27",
+          "text": "axiom"
+        },
+        {
+          "id": "batch-10-28",
+          "text": "postulate"
+        },
+        {
+          "id": "batch-10-29",
+          "text": "proposition"
+        },
+        {
+          "id": "batch-10-30",
+          "text": "corollary"
+        },
+        {
+          "id": "batch-10-31",
+          "text": "lemma"
+        },
+        {
+          "id": "batch-10-32",
+          "text": "inference"
+        },
+        {
+          "id": "batch-10-33",
+          "text": "deduction"
+        },
+        {
+          "id": "batch-10-34",
+          "text": "induction"
+        },
+        {
+          "id": "batch-10-35",
+          "text": "causality"
+        },
+        {
+          "id": "batch-10-36",
+          "text": "correlation"
+        },
+        {
+          "id": "batch-10-37",
+          "text": "variance"
+        },
+        {
+          "id": "batch-10-38",
+          "text": "covariance"
+        },
+        {
+          "id": "batch-10-39",
+          "text": "distribution"
+        },
+        {
+          "id": "batch-10-40",
+          "text": "normalization"
+        },
+        {
+          "id": "batch-10-41",
+          "text": "hierarchy"
+        },
+        {
+          "id": "batch-10-42",
+          "text": "bureaucracy"
+        },
+        {
+          "id": "batch-10-43",
+          "text": "administration"
+        },
+        {
+          "id": "batch-10-44",
+          "text": "coordination"
+        },
+        {
+          "id": "batch-10-45",
+          "text": "standardization"
+        },
+        {
+          "id": "batch-10-46",
+          "text": "institutionalization"
+        },
+        {
+          "id": "batch-10-47",
+          "text": "decentralization"
+        },
+        {
+          "id": "batch-10-48",
+          "text": "centralization"
+        },
+        {
+          "id": "batch-10-49",
+          "text": "governance"
+        },
+        {
+          "id": "batch-10-50",
+          "text": "oversight"
+        },
+        {
+          "id": "batch-10-51",
+          "text": "accountability"
+        },
+        {
+          "id": "batch-10-52",
+          "text": "compliance"
+        },
+        {
+          "id": "batch-10-53",
+          "text": "regulatory"
+        },
+        {
+          "id": "batch-10-54",
+          "text": "jurisdiction"
+        },
+        {
+          "id": "batch-10-55",
+          "text": "mandate"
+        },
+        {
+          "id": "batch-10-56",
+          "text": "directive"
+        },
+        {
+          "id": "batch-10-57",
+          "text": "protocol"
+        },
+        {
+          "id": "batch-10-58",
+          "text": "procedure"
+        },
+        {
+          "id": "batch-10-59",
+          "text": "workflow"
+        },
+        {
+          "id": "batch-10-60",
+          "text": "pipeline"
+        },
+        {
+          "id": "batch-10-61",
+          "text": "orchestrate"
+        },
+        {
+          "id": "batch-10-62",
+          "text": "operationalize"
+        },
+        {
+          "id": "batch-10-63",
+          "text": "institutionalize"
+        },
+        {
+          "id": "batch-10-64",
+          "text": "standardize"
+        },
+        {
+          "id": "batch-10-65",
+          "text": "formalize"
+        },
+        {
+          "id": "batch-10-66",
+          "text": "prioritize"
+        },
+        {
+          "id": "batch-10-67",
+          "text": "deprioritize"
+        },
+        {
+          "id": "batch-10-68",
+          "text": "contextualize"
+        },
+        {
+          "id": "batch-10-69",
+          "text": "conceptualize"
+        },
+        {
+          "id": "batch-10-70",
+          "text": "theorize"
+        },
+        {
+          "id": "batch-10-71",
+          "text": "synthesize"
+        },
+        {
+          "id": "batch-10-72",
+          "text": "rationalize"
+        },
+        {
+          "id": "batch-10-73",
+          "text": "legitimize"
+        },
+        {
+          "id": "batch-10-74",
+          "text": "validate"
+        },
+        {
+          "id": "batch-10-75",
+          "text": "substantiate"
+        },
+        {
+          "id": "batch-10-76",
+          "text": "corroborate"
+        },
+        {
+          "id": "batch-10-77",
+          "text": "mitigate"
+        },
+        {
+          "id": "batch-10-78",
+          "text": "ameliorate"
+        },
+        {
+          "id": "batch-10-79",
+          "text": "exacerbate"
+        },
+        {
+          "id": "batch-10-80",
+          "text": "facilitate"
+        },
+        {
+          "id": "batch-10-81",
+          "text": "descriptive"
+        },
+        {
+          "id": "batch-10-82",
+          "text": "prescriptive"
+        },
+        {
+          "id": "batch-10-83",
+          "text": "explanatory"
+        },
+        {
+          "id": "batch-10-84",
+          "text": "inferential"
+        },
+        {
+          "id": "batch-10-85",
+          "text": "axiomatic"
+        },
+        {
+          "id": "batch-10-86",
+          "text": "systemic"
+        },
+        {
+          "id": "batch-10-87",
+          "text": "systematic"
+        },
+        {
+          "id": "batch-10-88",
+          "text": "holistic"
+        },
+        {
+          "id": "batch-10-89",
+          "text": "reductionist"
+        },
+        {
+          "id": "batch-10-90",
+          "text": "comprehensive"
+        },
+        {
+          "id": "batch-10-91",
+          "text": "exhaustive"
+        },
+        {
+          "id": "batch-10-92",
+          "text": "robust"
+        },
+        {
+          "id": "batch-10-93",
+          "text": "rigorous"
+        },
+        {
+          "id": "batch-10-94",
+          "text": "coherent"
+        },
+        {
+          "id": "batch-10-95",
+          "text": "consistent"
+        },
+        {
+          "id": "batch-10-96",
+          "text": "explicit"
+        },
+        {
+          "id": "batch-10-97",
+          "text": "implicit"
+        },
+        {
+          "id": "batch-10-98",
+          "text": "latent"
+        },
+        {
+          "id": "batch-10-99",
+          "text": "henceforth"
+        },
+        {
+          "id": "batch-10-100",
+          "text": "thereafter"
+        },
+        {
+          "id": "batch-10-101",
+          "text": "wherein"
+        },
+        {
+          "id": "batch-10-102",
+          "text": "whereby"
+        },
+        {
+          "id": "batch-10-103",
+          "text": "thereupon"
+        },
+        {
+          "id": "batch-10-104",
+          "text": "notably"
+        },
+        {
+          "id": "batch-10-105",
+          "text": "ostensibly"
+        },
+        {
+          "id": "batch-10-106",
+          "text": "arguably"
+        },
+        {
+          "id": "batch-10-107",
+          "text": "respectively"
+        },
+        {
+          "id": "batch-10-108",
+          "text": "therein"
+        },
+        {
+          "id": "batch-10-109",
+          "text": "sovereignty"
+        },
+        {
+          "id": "batch-10-110",
+          "text": "legitimacy"
+        },
+        {
+          "id": "batch-10-111",
+          "text": "transparency"
+        },
+        {
+          "id": "batch-10-112",
+          "text": "representation"
+        },
+        {
+          "id": "batch-10-113",
+          "text": "pluralism"
+        },
+        {
+          "id": "batch-10-114",
+          "text": "federalism"
+        },
+        {
+          "id": "batch-10-115",
+          "text": "constitutionalism"
+        }
+      ]
+    },
+    {
+      "id": "batch-11",
+      "title": "第 11 批",
+      "range": "约 Top 2501–2750",
+      "words": [
+        {
+          "id": "batch-11-1",
+          "text": "nuance"
+        },
+        {
+          "id": "batch-11-2",
+          "text": "subtlety"
+        },
+        {
+          "id": "batch-11-3",
+          "text": "distinction"
+        },
+        {
+          "id": "batch-11-4",
+          "text": "differentiation"
+        },
+        {
+          "id": "batch-11-5",
+          "text": "granularity"
+        },
+        {
+          "id": "batch-11-6",
+          "text": "specificity"
+        },
+        {
+          "id": "batch-11-7",
+          "text": "generality"
+        },
+        {
+          "id": "batch-11-8",
+          "text": "universality"
+        },
+        {
+          "id": "batch-11-9",
+          "text": "particularity"
+        },
+        {
+          "id": "batch-11-10",
+          "text": "cohesion"
+        },
+        {
+          "id": "batch-11-11",
+          "text": "coherence"
+        },
+        {
+          "id": "batch-11-12",
+          "text": "consistency"
+        },
+        {
+          "id": "batch-11-13",
+          "text": "ambiguity"
+        },
+        {
+          "id": "batch-11-14",
+          "text": "contradiction"
+        },
+        {
+          "id": "batch-11-15",
+          "text": "paradox"
+        },
+        {
+          "id": "batch-11-16",
+          "text": "dilemma"
+        },
+        {
+          "id": "batch-11-17",
+          "text": "tradeoff"
+        },
+        {
+          "id": "batch-11-18",
+          "text": "constraint"
+        },
+        {
+          "id": "batch-11-19",
+          "text": "limitation"
+        },
+        {
+          "id": "batch-11-20",
+          "text": "boundary"
+        },
+        {
+          "id": "batch-11-21",
+          "text": "premise"
+        },
+        {
+          "id": "batch-11-22",
+          "text": "proposition"
+        },
+        {
+          "id": "batch-11-23",
+          "text": "assertion"
+        },
+        {
+          "id": "batch-11-24",
+          "text": "claim"
+        },
+        {
+          "id": "batch-11-25",
+          "text": "counterargument"
+        },
+        {
+          "id": "batch-11-26",
+          "text": "refutation"
+        },
+        {
+          "id": "batch-11-27",
+          "text": "justification"
+        },
+        {
+          "id": "batch-11-28",
+          "text": "rationale"
+        },
+        {
+          "id": "batch-11-29",
+          "text": "inference"
+        },
+        {
+          "id": "batch-11-30",
+          "text": "implication"
+        },
+        {
+          "id": "batch-11-31",
+          "text": "corollary"
+        },
+        {
+          "id": "batch-11-32",
+          "text": "extrapolation"
+        },
+        {
+          "id": "batch-11-33",
+          "text": "interpretation"
+        },
+        {
+          "id": "batch-11-34",
+          "text": "perspective"
+        },
+        {
+          "id": "batch-11-35",
+          "text": "standpoint"
+        },
+        {
+          "id": "batch-11-36",
+          "text": "framework"
+        },
+        {
+          "id": "batch-11-37",
+          "text": "schema"
+        },
+        {
+          "id": "batch-11-38",
+          "text": "narrative"
+        },
+        {
+          "id": "batch-11-39",
+          "text": "discourse"
+        },
+        {
+          "id": "batch-11-40",
+          "text": "rhetoric"
+        },
+        {
+          "id": "batch-11-41",
+          "text": "infrastructure"
+        },
+        {
+          "id": "batch-11-42",
+          "text": "ecosystem"
+        },
+        {
+          "id": "batch-11-43",
+          "text": "stakeholding"
+        },
+        {
+          "id": "batch-11-44",
+          "text": "alignment"
+        },
+        {
+          "id": "batch-11-45",
+          "text": "coordination"
+        },
+        {
+          "id": "batch-11-46",
+          "text": "integration"
+        },
+        {
+          "id": "batch-11-47",
+          "text": "consolidation"
+        },
+        {
+          "id": "batch-11-48",
+          "text": "restructuring"
+        },
+        {
+          "id": "batch-11-49",
+          "text": "optimization"
+        },
+        {
+          "id": "batch-11-50",
+          "text": "scalability"
+        },
+        {
+          "id": "batch-11-51",
+          "text": "resilience"
+        },
+        {
+          "id": "batch-11-52",
+          "text": "sustainability"
+        },
+        {
+          "id": "batch-11-53",
+          "text": "feasibility"
+        },
+        {
+          "id": "batch-11-54",
+          "text": "viability"
+        },
+        {
+          "id": "batch-11-55",
+          "text": "profitability"
+        },
+        {
+          "id": "batch-11-56",
+          "text": "efficiency"
+        },
+        {
+          "id": "batch-11-57",
+          "text": "productivity"
+        },
+        {
+          "id": "batch-11-58",
+          "text": "competitiveness"
+        },
+        {
+          "id": "batch-11-59",
+          "text": "positioning"
+        },
+        {
+          "id": "batch-11-60",
+          "text": "articulate"
+        },
+        {
+          "id": "batch-11-61",
+          "text": "delineate"
+        },
+        {
+          "id": "batch-11-62",
+          "text": "elucidate"
+        },
+        {
+          "id": "batch-11-63",
+          "text": "explicate"
+        },
+        {
+          "id": "batch-11-64",
+          "text": "contextualize"
+        },
+        {
+          "id": "batch-11-65",
+          "text": "operationalize"
+        },
+        {
+          "id": "batch-11-66",
+          "text": "institutionalize"
+        },
+        {
+          "id": "batch-11-67",
+          "text": "rationalize"
+        },
+        {
+          "id": "batch-11-68",
+          "text": "prioritize"
+        },
+        {
+          "id": "batch-11-69",
+          "text": "streamline"
+        },
+        {
+          "id": "batch-11-70",
+          "text": "reconcile"
+        },
+        {
+          "id": "batch-11-71",
+          "text": "mediate"
+        },
+        {
+          "id": "batch-11-72",
+          "text": "arbitrate"
+        },
+        {
+          "id": "batch-11-73",
+          "text": "validate"
+        },
+        {
+          "id": "batch-11-74",
+          "text": "corroborate"
+        },
+        {
+          "id": "batch-11-75",
+          "text": "substantiate"
+        },
+        {
+          "id": "batch-11-76",
+          "text": "mitigate"
+        },
+        {
+          "id": "batch-11-77",
+          "text": "ameliorate"
+        },
+        {
+          "id": "batch-11-78",
+          "text": "exacerbate"
+        },
+        {
+          "id": "batch-11-79",
+          "text": "facilitate"
+        },
+        {
+          "id": "batch-11-80",
+          "text": "nuanced"
+        },
+        {
+          "id": "batch-11-81",
+          "text": "ambiguous"
+        },
+        {
+          "id": "batch-11-82",
+          "text": "explicit"
+        },
+        {
+          "id": "batch-11-83",
+          "text": "implicit"
+        },
+        {
+          "id": "batch-11-84",
+          "text": "inherent"
+        },
+        {
+          "id": "batch-11-85",
+          "text": "intrinsic"
+        },
+        {
+          "id": "batch-11-86",
+          "text": "extrinsic"
+        },
+        {
+          "id": "batch-11-87",
+          "text": "marginal"
+        },
+        {
+          "id": "batch-11-88",
+          "text": "substantial"
+        },
+        {
+          "id": "batch-11-89",
+          "text": "incremental"
+        },
+        {
+          "id": "batch-11-90",
+          "text": "cumulative"
+        },
+        {
+          "id": "batch-11-91",
+          "text": "systemic"
+        },
+        {
+          "id": "batch-11-92",
+          "text": "structural"
+        },
+        {
+          "id": "batch-11-93",
+          "text": "operational"
+        },
+        {
+          "id": "batch-11-94",
+          "text": "contextual"
+        },
+        {
+          "id": "batch-11-95",
+          "text": "situational"
+        },
+        {
+          "id": "batch-11-96",
+          "text": "conditional"
+        },
+        {
+          "id": "batch-11-97",
+          "text": "contingent"
+        },
+        {
+          "id": "batch-11-98",
+          "text": "robust"
+        },
+        {
+          "id": "batch-11-99",
+          "text": "fragile"
+        },
+        {
+          "id": "batch-11-100",
+          "text": "predominantly"
+        },
+        {
+          "id": "batch-11-101",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "batch-11-102",
+          "text": "thereby"
+        },
+        {
+          "id": "batch-11-103",
+          "text": "thereof"
+        },
+        {
+          "id": "batch-11-104",
+          "text": "whereby"
+        },
+        {
+          "id": "batch-11-105",
+          "text": "hitherto"
+        },
+        {
+          "id": "batch-11-106",
+          "text": "ostensibly"
+        },
+        {
+          "id": "batch-11-107",
+          "text": "invariably"
+        },
+        {
+          "id": "batch-11-108",
+          "text": "comparatively"
+        },
+        {
+          "id": "batch-11-109",
+          "text": "concurrently"
+        },
+        {
+          "id": "batch-11-110",
+          "text": "ideology"
+        },
+        {
+          "id": "batch-11-111",
+          "text": "doctrine"
+        },
+        {
+          "id": "batch-11-112",
+          "text": "paradigm"
+        },
+        {
+          "id": "batch-11-113",
+          "text": "orthodoxy"
+        },
+        {
+          "id": "batch-11-114",
+          "text": "heterodoxy"
+        },
+        {
+          "id": "batch-11-115",
+          "text": "pluralism"
+        },
+        {
+          "id": "batch-11-116",
+          "text": "relativism"
+        },
+        {
+          "id": "batch-11-117",
+          "text": "absolutism"
+        },
+        {
+          "id": "batch-11-118",
+          "text": "determinism"
+        },
+        {
+          "id": "batch-11-119",
+          "text": "agency"
+        }
+      ]
+    },
+    {
+      "id": "batch-12",
+      "title": "第 12 批",
+      "range": "约 Top 2751–3000",
+      "words": [
+        {
+          "id": "batch-12-1",
+          "text": "epistemology"
+        },
+        {
+          "id": "batch-12-2",
+          "text": "ontology"
+        },
+        {
+          "id": "batch-12-3",
+          "text": "metaphysics"
+        },
+        {
+          "id": "batch-12-4",
+          "text": "dialectic"
+        },
+        {
+          "id": "batch-12-5",
+          "text": "heuristic"
+        },
+        {
+          "id": "batch-12-6",
+          "text": "teleology"
+        },
+        {
+          "id": "batch-12-7",
+          "text": "axiology"
+        },
+        {
+          "id": "batch-12-8",
+          "text": "phenomenology"
+        },
+        {
+          "id": "batch-12-9",
+          "text": "existentialism"
+        },
+        {
+          "id": "batch-12-10",
+          "text": "constructivism"
+        },
+        {
+          "id": "batch-12-11",
+          "text": "positivism"
+        },
+        {
+          "id": "batch-12-12",
+          "text": "empiricism"
+        },
+        {
+          "id": "batch-12-13",
+          "text": "rationalism"
+        },
+        {
+          "id": "batch-12-14",
+          "text": "determinism"
+        },
+        {
+          "id": "batch-12-15",
+          "text": "reductionism"
+        },
+        {
+          "id": "batch-12-16",
+          "text": "holism"
+        },
+        {
+          "id": "batch-12-17",
+          "text": "relativism"
+        },
+        {
+          "id": "batch-12-18",
+          "text": "objectivism"
+        },
+        {
+          "id": "batch-12-19",
+          "text": "subjectivism"
+        },
+        {
+          "id": "batch-12-20",
+          "text": "skepticism"
+        },
+        {
+          "id": "batch-12-21",
+          "text": "postulate"
+        },
+        {
+          "id": "batch-12-22",
+          "text": "axiom"
+        },
+        {
+          "id": "batch-12-23",
+          "text": "corollary"
+        },
+        {
+          "id": "batch-12-24",
+          "text": "lemma"
+        },
+        {
+          "id": "batch-12-25",
+          "text": "syllogism"
+        },
+        {
+          "id": "batch-12-26",
+          "text": "deduction"
+        },
+        {
+          "id": "batch-12-27",
+          "text": "induction"
+        },
+        {
+          "id": "batch-12-28",
+          "text": "abduction"
+        },
+        {
+          "id": "batch-12-29",
+          "text": "inference"
+        },
+        {
+          "id": "batch-12-30",
+          "text": "exegesis"
+        },
+        {
+          "id": "batch-12-31",
+          "text": "hermeneutics"
+        },
+        {
+          "id": "batch-12-32",
+          "text": "dissertation"
+        },
+        {
+          "id": "batch-12-33",
+          "text": "monograph"
+        },
+        {
+          "id": "batch-12-34",
+          "text": "treatise"
+        },
+        {
+          "id": "batch-12-35",
+          "text": "critique"
+        },
+        {
+          "id": "batch-12-36",
+          "text": "commentary"
+        },
+        {
+          "id": "batch-12-37",
+          "text": "annotation"
+        },
+        {
+          "id": "batch-12-38",
+          "text": "footnote"
+        },
+        {
+          "id": "batch-12-39",
+          "text": "bibliography"
+        },
+        {
+          "id": "batch-12-40",
+          "text": "appendix"
+        },
+        {
+          "id": "batch-12-41",
+          "text": "connotation"
+        },
+        {
+          "id": "batch-12-42",
+          "text": "denotation"
+        },
+        {
+          "id": "batch-12-43",
+          "text": "semantics"
+        },
+        {
+          "id": "batch-12-44",
+          "text": "pragmatics"
+        },
+        {
+          "id": "batch-12-45",
+          "text": "syntax"
+        },
+        {
+          "id": "batch-12-46",
+          "text": "lexicon"
+        },
+        {
+          "id": "batch-12-47",
+          "text": "discourse"
+        },
+        {
+          "id": "batch-12-48",
+          "text": "rhetoric"
+        },
+        {
+          "id": "batch-12-49",
+          "text": "narratology"
+        },
+        {
+          "id": "batch-12-50",
+          "text": "intertextuality"
+        },
+        {
+          "id": "batch-12-51",
+          "text": "polysemy"
+        },
+        {
+          "id": "batch-12-52",
+          "text": "ambiguity"
+        },
+        {
+          "id": "batch-12-53",
+          "text": "equivocation"
+        },
+        {
+          "id": "batch-12-54",
+          "text": "dichotomy"
+        },
+        {
+          "id": "batch-12-55",
+          "text": "duality"
+        },
+        {
+          "id": "batch-12-56",
+          "text": "continuum"
+        },
+        {
+          "id": "batch-12-57",
+          "text": "gradient"
+        },
+        {
+          "id": "batch-12-58",
+          "text": "spectrum"
+        },
+        {
+          "id": "batch-12-59",
+          "text": "taxonomy"
+        },
+        {
+          "id": "batch-12-60",
+          "text": "typology"
+        },
+        {
+          "id": "batch-12-61",
+          "text": "sovereignty"
+        },
+        {
+          "id": "batch-12-62",
+          "text": "hegemony"
+        },
+        {
+          "id": "batch-12-63",
+          "text": "legitimacy"
+        },
+        {
+          "id": "batch-12-64",
+          "text": "jurisprudence"
+        },
+        {
+          "id": "batch-12-65",
+          "text": "constitutionalism"
+        },
+        {
+          "id": "batch-12-66",
+          "text": "federalism"
+        },
+        {
+          "id": "batch-12-67",
+          "text": "pluralism"
+        },
+        {
+          "id": "batch-12-68",
+          "text": "liberalism"
+        },
+        {
+          "id": "batch-12-69",
+          "text": "authoritarianism"
+        },
+        {
+          "id": "batch-12-70",
+          "text": "totalitarianism"
+        },
+        {
+          "id": "batch-12-71",
+          "text": "nationalism"
+        },
+        {
+          "id": "batch-12-72",
+          "text": "globalism"
+        },
+        {
+          "id": "batch-12-73",
+          "text": "colonialism"
+        },
+        {
+          "id": "batch-12-74",
+          "text": "imperialism"
+        },
+        {
+          "id": "batch-12-75",
+          "text": "capitalism"
+        },
+        {
+          "id": "batch-12-76",
+          "text": "socialism"
+        },
+        {
+          "id": "batch-12-77",
+          "text": "communism"
+        },
+        {
+          "id": "batch-12-78",
+          "text": "neoliberalism"
+        },
+        {
+          "id": "batch-12-79",
+          "text": "welfare"
+        },
+        {
+          "id": "batch-12-80",
+          "text": "governance"
+        },
+        {
+          "id": "batch-12-81",
+          "text": "problematize"
+        },
+        {
+          "id": "batch-12-82",
+          "text": "interrogate"
+        },
+        {
+          "id": "batch-12-83",
+          "text": "theorize"
+        },
+        {
+          "id": "batch-12-84",
+          "text": "conceptualize"
+        },
+        {
+          "id": "batch-12-85",
+          "text": "operationalize"
+        },
+        {
+          "id": "batch-12-86",
+          "text": "contextualize"
+        },
+        {
+          "id": "batch-12-87",
+          "text": "formalize"
+        },
+        {
+          "id": "batch-12-88",
+          "text": "institutionalize"
+        },
+        {
+          "id": "batch-12-89",
+          "text": "systematize"
+        },
+        {
+          "id": "batch-12-90",
+          "text": "legitimize"
+        },
+        {
+          "id": "batch-12-91",
+          "text": "delegitimize"
+        },
+        {
+          "id": "batch-12-92",
+          "text": "validate"
+        },
+        {
+          "id": "batch-12-93",
+          "text": "invalidate"
+        },
+        {
+          "id": "batch-12-94",
+          "text": "substantiate"
+        },
+        {
+          "id": "batch-12-95",
+          "text": "corroborate"
+        },
+        {
+          "id": "batch-12-96",
+          "text": "triangulate"
+        },
+        {
+          "id": "batch-12-97",
+          "text": "reconcile"
+        },
+        {
+          "id": "batch-12-98",
+          "text": "synthesize"
+        },
+        {
+          "id": "batch-12-99",
+          "text": "differentiate"
+        },
+        {
+          "id": "batch-12-100",
+          "text": "reify"
+        },
+        {
+          "id": "batch-12-101",
+          "text": "epistemic"
+        },
+        {
+          "id": "batch-12-102",
+          "text": "ontological"
+        },
+        {
+          "id": "batch-12-103",
+          "text": "axiomatic"
+        },
+        {
+          "id": "batch-12-104",
+          "text": "teleological"
+        },
+        {
+          "id": "batch-12-105",
+          "text": "normative"
+        },
+        {
+          "id": "batch-12-106",
+          "text": "descriptive"
+        },
+        {
+          "id": "batch-12-107",
+          "text": "prescriptive"
+        },
+        {
+          "id": "batch-12-108",
+          "text": "inferential"
+        },
+        {
+          "id": "batch-12-109",
+          "text": "discursive"
+        },
+        {
+          "id": "batch-12-110",
+          "text": "paradigmatic"
+        },
+        {
+          "id": "batch-12-111",
+          "text": "ideological"
+        },
+        {
+          "id": "batch-12-112",
+          "text": "structuralist"
+        },
+        {
+          "id": "batch-12-113",
+          "text": "postmodern"
+        },
+        {
+          "id": "batch-12-114",
+          "text": "empirical"
+        },
+        {
+          "id": "batch-12-115",
+          "text": "theoretical"
+        },
+        {
+          "id": "batch-12-116",
+          "text": "interpretive"
+        },
+        {
+          "id": "batch-12-117",
+          "text": "hermeneutic"
+        },
+        {
+          "id": "batch-12-118",
+          "text": "dialectical"
+        },
+        {
+          "id": "batch-12-119",
+          "text": "systemic"
+        },
+        {
+          "id": "batch-12-120",
+          "text": "hitherto"
+        },
+        {
+          "id": "batch-12-121",
+          "text": "therewith"
+        },
+        {
+          "id": "batch-12-122",
+          "text": "whereof"
+        },
+        {
+          "id": "batch-12-123",
+          "text": "wherefrom"
+        },
+        {
+          "id": "batch-12-124",
+          "text": "notwithstanding"
+        },
+        {
+          "id": "batch-12-125",
+          "text": "inasmuch"
+        },
+        {
+          "id": "batch-12-126",
+          "text": "thereupon"
+        },
+        {
+          "id": "batch-12-127",
+          "text": "wherein"
+        },
+        {
+          "id": "batch-12-128",
+          "text": "henceforth"
+        },
+        {
+          "id": "batch-12-129",
+          "text": "thereafter"
+        }
+      ]
+    }
+  ]
+}
