@@ -19,6 +19,8 @@ const els = {
   batchTitle: document.getElementById("batchTitle"),
   batchRange: document.getElementById("batchRange"),
   batchProgress: document.getElementById("batchProgress"),
+  batchDescription: document.getElementById("batchDescription"),
+  batchMilestone: document.getElementById("batchMilestone"),
   overallProgress: document.getElementById("overallProgress"),
   filters: document.getElementById("filters"),
   wordPanel: document.getElementById("wordPanel"),
@@ -70,14 +72,12 @@ const setFilterActive = () => {
 };
 
 const getBatchById = (batchId) =>
-  state.data?.batches.find((batch) => batch.id === batchId);
+  state.data?.batches.find((batch) => batch.title === batchId);
 
 const getKnownCount = (words) =>
   words.reduce(
     (count, word) =>
-      state.progressByWordId[word.id]?.status === "known"
-        ? count + 1
-        : count,
+      state.progressByWordId[word.id]?.status === "known" ? count + 1 : count,
     0
   );
 
@@ -100,7 +100,7 @@ const renderBatchList = () => {
     const total = batch.words.length;
     const card = document.createElement("button");
     card.className = "batch-card";
-    card.dataset.batchId = batch.id;
+    card.dataset.batchId = batch.title;
     card.innerHTML = `
       <div class="batch-card-title">${batch.title}</div>
       <div class="batch-card-range">${batch.range || "—"}</div>
@@ -128,6 +128,8 @@ const renderBatchDetail = () => {
     els.batchTitle.textContent = "请选择批次";
     els.batchRange.textContent = "—";
     els.batchProgress.textContent = "—";
+    els.batchDescription.textContent = "";
+    els.batchMilestone.textContent = "";
     els.wordList.innerHTML =
       '<div class="placeholder">请选择批次后查看词表</div>';
     renderWordPanel(null);
@@ -139,12 +141,15 @@ const renderBatchDetail = () => {
   els.batchTitle.textContent = batch.title;
   els.batchRange.textContent = batch.range || "—";
   els.batchProgress.textContent = `进度 ${known} / ${total}`;
+  els.batchDescription.textContent = batch.description || "";
+  els.batchMilestone.textContent = batch.milestone
+    ? `🎯 ${batch.milestone}`
+    : "";
 
   els.wordList.innerHTML = "";
   const filteredWords = batch.words.filter(applyWordFilter);
   if (filteredWords.length === 0) {
-    els.wordList.innerHTML =
-      '<div class="placeholder">当前筛选没有结果</div>';
+    els.wordList.innerHTML = '<div class="placeholder">当前筛选没有结果</div>';
   } else {
     filteredWords.forEach((word) => {
       const isKnown = state.progressByWordId[word.id]?.status === "known";
@@ -285,7 +290,15 @@ const init = async () => {
   try {
     const response = await fetch("./data/words.json");
     if (!response.ok) throw new Error("无法加载词表数据");
-    state.data = await response.json();
+    const rawData = await response.json();
+    // 转换数据：为每个单词添加 id 和 text 属性
+    rawData.batches.forEach((batch) => {
+      batch.words = batch.words.map((word) => ({
+        id: `${batch.title}-${word}`,
+        text: word,
+      }));
+    });
+    state.data = rawData;
   } catch (error) {
     els.wordList.innerHTML =
       '<div class="placeholder">无法加载数据，请使用本地服务器打开</div>';

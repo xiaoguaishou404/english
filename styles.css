@@ -38,6 +38,32 @@ body {
         color: #6b7280;
         font-size: 14px;
       }
+
+      .coverage-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 12px;
+        margin-top: 10px;
+        font-size: 12px;
+        color: #6b7280;
+
+        .coverage-label {
+          color: #374151;
+          font-weight: 500;
+        }
+
+        .coverage-item {
+          background: #f3f4f6;
+          padding: 2px 8px;
+          border-radius: 4px;
+
+          &.highlight {
+            background: #dbeafe;
+            color: #1d4ed8;
+            font-weight: 600;
+          }
+        }
+      }
     }
 
     .summary {
@@ -176,6 +202,30 @@ body {
         gap: 12px;
         color: #6b7280;
         font-size: 13px;
+      }
+
+      .batch-description {
+        margin-top: 8px;
+        font-size: 13px;
+        color: #374151;
+
+        &:empty {
+          display: none;
+        }
+      }
+
+      .batch-milestone {
+        font-size: 12px;
+        color: #059669;
+        background: #ecfdf5;
+        padding: 4px 10px;
+        border-radius: 6px;
+        display: inline-block;
+        margin-top: 6px;
+
+        &:empty {
+          display: none;
+        }
       }
     }
 
