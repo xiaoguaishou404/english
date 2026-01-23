@@ -12,29 +12,20 @@
         <div class="title-group">
           <h1>3000 高频词</h1>
           <p class="subtitle">按批次学习，记录进度与备注</p>
-          <div class="coverage-info">
-            <span class="coverage-label">词汇覆盖率：</span>
-            <span class="coverage-item">100词→50%</span>
-            <span class="coverage-item">300词→65%</span>
-            <span class="coverage-item">1000词→85%</span>
-            <span class="coverage-item">2000词→92%</span>
-            <span class="coverage-item highlight">3000词→95%</span>
-          </div>
-        </div>
-        <div class="summary">
-          <div class="summary-item">
-            <span class="label">总进度</span>
-            <span class="value" id="overallProgress">0 / 0</span>
-          </div>
-          <button class="primary-btn" id="continueBtn">继续上次批次</button>
         </div>
       </header>
 
       <main class="app-main">
         <section class="batch-section">
           <div class="section-header">
-            <h2>批次列表</h2>
-            <p class="section-desc">选择一个批次开始学习</p>
+            <div class="header-titles">
+              <h2>批次列表</h2>
+              <p class="section-desc">选择一个批次开始学习</p>
+            </div>
+            <div class="overall-progress-tag">
+              <span class="label">总进度</span>
+              <span class="value" id="overallProgress">0 / 0</span>
+            </div>
           </div>
           <div class="batch-list" id="batchList"></div>
         </section>
@@ -56,9 +47,7 @@
               <button data-filter="all" class="filter-btn is-active">
                 全部
               </button>
-              <button data-filter="unknown" class="filter-btn">
-                未掌握
-              </button>
+              <button data-filter="unknown" class="filter-btn">未掌握</button>
               <button data-filter="known" class="filter-btn">已掌握</button>
               <button data-filter="noted" class="filter-btn">有备注</button>
             </div>

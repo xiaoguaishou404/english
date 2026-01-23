@@ -30,8 +30,7 @@ const BATCH_NOTES = [
   },
   {
     subtitle: "生活场景 + 情绪状态",
-    summary:
-      "交通、健康、情绪、环境与物品等场景词集中出现，英语开始有画面感。",
+    summary: "交通、健康、情绪、环境与物品等场景词集中出现，英语开始有画面感。",
     highlights: ["状态判断更自然", "日常生活场景基本无压力"],
     outcome: "已超过很多学了几年但词汇混乱的人。",
   },
@@ -43,15 +42,13 @@ const BATCH_NOTES = [
   },
   {
     subtitle: "思考型英语起点",
-    summary:
-      "偏书面但高频，新闻/说明文常见，抽象逻辑词开始集中出现。",
+    summary: "偏书面但高频，新闻/说明文常见，抽象逻辑词开始集中出现。",
     highlights: ["从生活英语过渡到思考英语"],
     outcome: "完成这一层会出现能力跃迁。",
   },
   {
     subtitle: "抽象能力 + 工作/技术英语核心层",
-    summary:
-      "覆盖系统/项目/决策、抽象状态与变化、正式高频动词等专业语境。",
+    summary: "覆盖系统/项目/决策、抽象状态与变化、正式高频动词等专业语境。",
     highlights: ["专业文档基本无障碍"],
     outcome: "英语开始成为工具，而不是障碍。",
   },
@@ -110,7 +107,6 @@ const els = {
   wordBatch: document.getElementById("wordBatch"),
   toggleKnownBtn: document.getElementById("toggleKnownBtn"),
   wordNote: document.getElementById("wordNote"),
-  continueBtn: document.getElementById("continueBtn"),
 };
 
 const loadStorage = (key, fallback) => {
@@ -184,10 +180,8 @@ const renderBatchList = () => {
     card.className = "batch-card";
     card.dataset.batchId = batch.title;
     card.innerHTML = `
-      <div class="batch-card-title">${batch.title}</div>
-      <div class="batch-card-summary">${batch.summary}</div>
-      <div class="batch-card-meta">共 ${total} 词</div>
-      <div class="batch-card-progress">${known} / ${total}</div>
+      <span class="batch-card-title">${batch.title}</span>
+      <span class="batch-card-progress">${known}/${total}</span>
     `;
     if (batch.title === state.selectedBatchId) {
       card.classList.add("is-active");
@@ -234,7 +228,21 @@ const renderBatchDetail = () => {
   els.batchOutcome.textContent = batch.outcome || "";
 
   els.wordList.innerHTML = "";
-  const filteredWords = batch.words.filter(applyWordFilter);
+  const filteredWords = batch.words.filter(applyWordFilter).sort((a, b) => {
+    const aProgress = state.progressByWordId[a.id];
+    const bProgress = state.progressByWordId[b.id];
+    const aKnown = aProgress?.status === "known";
+    const bKnown = bProgress?.status === "known";
+
+    if (aKnown !== bKnown) return aKnown ? 1 : -1;
+
+    // 如果都是已掌握，则按 updatedAt 时间戳排序，后标记的（时间戳大）在后面
+    if (aKnown && bKnown) {
+      return (aProgress.updatedAt || 0) - (bProgress.updatedAt || 0);
+    }
+
+    return 0; // 都是未掌握，保持原词表顺序
+  });
   if (filteredWords.length === 0) {
     els.wordList.innerHTML = '<div class="placeholder">当前筛选没有结果</div>';
   } else {
@@ -358,17 +366,6 @@ const bindEvents = () => {
 
   els.wordNote.addEventListener("input", (event) => {
     updateNote(event.target.value);
-  });
-
-  els.continueBtn.addEventListener("click", () => {
-    if (state.selectedBatchId) {
-      setSelectedBatch(state.selectedBatchId);
-      return;
-    }
-    const firstBatch = state.data?.batches[0];
-    if (firstBatch) {
-      setSelectedBatch(firstBatch.title);
-    }
   });
 };
 

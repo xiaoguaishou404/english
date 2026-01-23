@@ -17,7 +17,7 @@ body {
 }
 
 .app {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 32px 20px 60px;
 
@@ -37,57 +37,6 @@ body {
       .subtitle {
         color: #6b7280;
         font-size: 14px;
-      }
-
-      .coverage-info {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px 12px;
-        margin-top: 10px;
-        font-size: 12px;
-        color: #6b7280;
-
-        .coverage-label {
-          color: #374151;
-          font-weight: 500;
-        }
-
-        .coverage-item {
-          background: #f3f4f6;
-          padding: 2px 8px;
-          border-radius: 4px;
-
-          &.highlight {
-            background: #dbeafe;
-            color: #1d4ed8;
-            font-weight: 600;
-          }
-        }
-      }
-    }
-
-    .summary {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-
-      .summary-item {
-        background: #ffffff;
-        border-radius: 12px;
-        padding: 12px 16px;
-        min-width: 140px;
-        box-shadow: 0 10px 20px rgba(15, 23, 42, 0.06);
-
-        .label {
-          display: block;
-          color: #6b7280;
-          font-size: 12px;
-        }
-
-        .value {
-          font-weight: 600;
-          font-size: 18px;
-        }
       }
     }
   }
@@ -136,58 +85,100 @@ body {
 
 .section-header {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 
-  h2 {
-    font-size: 20px;
-    margin-bottom: 6px;
+  .header-titles {
+    h2 {
+      font-size: 20px;
+      margin-bottom: 6px;
+    }
+
+    .section-desc {
+      color: #6b7280;
+      font-size: 14px;
+    }
   }
 
-  .section-desc {
-    color: #6b7280;
+  .overall-progress-tag {
+    background: #f3f4f6;
+    padding: 8px 16px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
     font-size: 14px;
+
+    .label {
+      color: #6b7280;
+    }
+
+    .value {
+      font-weight: 700;
+      color: #111827;
+      font-family: monospace;
+      font-size: 16px;
+    }
   }
 }
 
 .batch-list {
-  display: grid;
-  gap: 14px;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #e5e7eb;
+    border-radius: 10px;
+  }
 
   & .batch-card {
-    text-align: left;
-    padding: 14px;
-    border-radius: 12px;
+    flex: 0 0 auto;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 999px;
     border: 1px solid #e5e7eb;
-    transition: border 0.2s ease, box-shadow 0.2s ease;
+    background: #ffffff;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
 
     &.is-active {
       border-color: #2563eb;
-      box-shadow: 0 10px 20px rgba(37, 99, 235, 0.15);
+      background: #2563eb;
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+
+      .batch-card-progress {
+        color: rgba(255, 255, 255, 0.9);
+      }
     }
 
     .batch-card-title {
       font-weight: 600;
-      margin-bottom: 6px;
-    }
-
-    .batch-card-summary {
-      font-size: 12px;
-      color: #4b5563;
-      margin-bottom: 10px;
-      line-height: 1.4;
-      min-height: 34px;
-    }
-
-    .batch-card-meta {
-      font-size: 12px;
-      color: #6b7280;
-      margin-bottom: 10px;
+      font-size: 14px;
     }
 
     .batch-card-progress {
-      font-size: 13px;
-      color: #111827;
-      font-weight: 600;
+      font-size: 12px;
+      color: #6b7280;
+      font-weight: 500;
+    }
+
+    /* 隐藏不需要的元素 */
+    .batch-card-summary,
+    .batch-card-meta {
+      display: none;
     }
   }
 }
@@ -196,6 +187,7 @@ body {
   .detail-header {
     display: flex;
     justify-content: space-between;
+    align-items: start;
     gap: 16px;
     margin-bottom: 20px;
 
@@ -296,8 +288,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  max-height: 480px;
-  overflow-y: auto;
   padding-right: 6px;
 
   & .word-item {
@@ -415,10 +405,6 @@ body {
 }
 
 @media (max-width: 640px) {
-  .batch-list {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  }
-
   .app {
     padding: 20px 16px 40px;
   }
