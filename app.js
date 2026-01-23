@@ -13,14 +13,96 @@ const state = {
   notesByWordId: {},
 };
 
+const BATCH_NOTES = [
+  {
+    subtitle: "英语的“骨架词”",
+    summary:
+      "功能词、基础动词、代词、介词、连接词构成句子骨架，不掌握就难以成句。",
+    highlights: ["能看见句子结构", "不再被长句吓到"],
+    outcome: "这是所有英语的地基。",
+  },
+  {
+    subtitle: "高频动词补全 + 核心日常名词",
+    summary:
+      "人/物/时间/数量 + 高频动作动词 + 基础形容词与副词，进入真正能表达的区间。",
+    highlights: ["听懂大量日常对话", "描述事情", "看懂英文界面/基础文档"],
+    outcome: "能正常说人话。",
+  },
+  {
+    subtitle: "生活场景 + 情绪状态",
+    summary:
+      "交通、健康、情绪、环境与物品等场景词集中出现，英语开始有画面感。",
+    highlights: ["状态判断更自然", "日常生活场景基本无压力"],
+    outcome: "已超过很多学了几年但词汇混乱的人。",
+  },
+  {
+    subtitle: "中级英语分水岭",
+    summary: "更成熟的形容词 + 抽象名词 + 工作/学习/系统表达进入主场。",
+    highlights: ["可讨论", "可解释", "可表达观点"],
+    outcome: "到 1000 词是很多非母语者的真实天花板。",
+  },
+  {
+    subtitle: "思考型英语起点",
+    summary:
+      "偏书面但高频，新闻/说明文常见，抽象逻辑词开始集中出现。",
+    highlights: ["从生活英语过渡到思考英语"],
+    outcome: "完成这一层会出现能力跃迁。",
+  },
+  {
+    subtitle: "抽象能力 + 工作/技术英语核心层",
+    summary:
+      "覆盖系统/项目/决策、抽象状态与变化、正式高频动词等专业语境。",
+    highlights: ["专业文档基本无障碍"],
+    outcome: "英语开始成为工具，而不是障碍。",
+  },
+  {
+    subtitle: "高级但仍然常见",
+    summary: "新闻、商务、公共讨论中的高频词集中出现。",
+    highlights: ["阅读会突然变轻松"],
+    outcome: "新闻/商务英文几乎无压力。",
+  },
+  {
+    subtitle: "高频书面英语最后一层",
+    summary: "完成 2000 词，覆盖约 92–94% 英文文本。",
+    highlights: ["阅读速度明显提升", "剩下主要是低频词"],
+    outcome: "这是书面英语覆盖率的重要里程碑。",
+  },
+  {
+    subtitle: "一般常用词区间",
+    summary: "不天天用，但阅读中经常遇到。",
+    highlights: ["阅读英文文章几乎不查词"],
+    outcome: "已完全超过普通应试英语。",
+  },
+  {
+    subtitle: "低频但阅读常见",
+    summary: "提升理解完整度，让文章没有卡点。",
+    highlights: ["阅读接近母语材料"],
+    outcome: "高频体系趋于完整。",
+  },
+  {
+    subtitle: "精准表达层",
+    summary: "看着高级，但并不生僻。",
+    highlights: ["几乎不怕任何英文文本"],
+    outcome: "表达与理解都更精确。",
+  },
+  {
+    subtitle: "真正的收官",
+    summary: "低频但高价值，偏学术/思想/精准语义。",
+    highlights: ["认识即可", "英文阅读零死角"],
+    outcome: "覆盖极少见但高价值的表达。",
+  },
+];
+
 const els = {
   batchList: document.getElementById("batchList"),
   wordList: document.getElementById("wordList"),
   batchTitle: document.getElementById("batchTitle"),
-  batchRange: document.getElementById("batchRange"),
+  batchCount: document.getElementById("batchCount"),
   batchProgress: document.getElementById("batchProgress"),
-  batchDescription: document.getElementById("batchDescription"),
-  batchMilestone: document.getElementById("batchMilestone"),
+  batchSubtitle: document.getElementById("batchSubtitle"),
+  batchSummary: document.getElementById("batchSummary"),
+  batchHighlights: document.getElementById("batchHighlights"),
+  batchOutcome: document.getElementById("batchOutcome"),
   overallProgress: document.getElementById("overallProgress"),
   filters: document.getElementById("filters"),
   wordPanel: document.getElementById("wordPanel"),
@@ -103,10 +185,11 @@ const renderBatchList = () => {
     card.dataset.batchId = batch.title;
     card.innerHTML = `
       <div class="batch-card-title">${batch.title}</div>
-      <div class="batch-card-range">${batch.range || "—"}</div>
+      <div class="batch-card-summary">${batch.summary}</div>
+      <div class="batch-card-meta">共 ${total} 词</div>
       <div class="batch-card-progress">${known} / ${total}</div>
     `;
-    if (batch.id === state.selectedBatchId) {
+    if (batch.title === state.selectedBatchId) {
       card.classList.add("is-active");
     }
     els.batchList.appendChild(card);
@@ -126,10 +209,12 @@ const renderBatchDetail = () => {
   const batch = getBatchById(state.selectedBatchId);
   if (!batch) {
     els.batchTitle.textContent = "请选择批次";
-    els.batchRange.textContent = "—";
+    els.batchCount.textContent = "—";
     els.batchProgress.textContent = "—";
-    els.batchDescription.textContent = "";
-    els.batchMilestone.textContent = "";
+    els.batchSubtitle.textContent = "";
+    els.batchSummary.textContent = "";
+    els.batchHighlights.innerHTML = "";
+    els.batchOutcome.textContent = "";
     els.wordList.innerHTML =
       '<div class="placeholder">请选择批次后查看词表</div>';
     renderWordPanel(null);
@@ -139,12 +224,14 @@ const renderBatchDetail = () => {
   const known = getKnownCount(batch.words);
   const total = batch.words.length;
   els.batchTitle.textContent = batch.title;
-  els.batchRange.textContent = batch.range || "—";
+  els.batchCount.textContent = `共 ${total} 词`;
   els.batchProgress.textContent = `进度 ${known} / ${total}`;
-  els.batchDescription.textContent = batch.description || "";
-  els.batchMilestone.textContent = batch.milestone
-    ? `🎯 ${batch.milestone}`
-    : "";
+  els.batchSubtitle.textContent = batch.subtitle || "";
+  els.batchSummary.textContent = batch.summary || "";
+  els.batchHighlights.innerHTML = batch.highlights
+    .map((item) => `<li>${item}</li>`)
+    .join("");
+  els.batchOutcome.textContent = batch.outcome || "";
 
   els.wordList.innerHTML = "";
   const filteredWords = batch.words.filter(applyWordFilter);
@@ -280,7 +367,7 @@ const bindEvents = () => {
     }
     const firstBatch = state.data?.batches[0];
     if (firstBatch) {
-      setSelectedBatch(firstBatch.id);
+      setSelectedBatch(firstBatch.title);
     }
   });
 };
@@ -292,13 +379,22 @@ const init = async () => {
     if (!response.ok) throw new Error("无法加载词表数据");
     const rawData = await response.json();
     // 转换数据：为每个单词添加 id 和 text 属性
-    rawData.batches.forEach((batch) => {
-      batch.words = batch.words.map((word) => ({
-        id: `${batch.title}-${word}`,
-        text: word,
-      }));
+    const batches = rawData.map((words, index) => {
+      const title = `第 ${index + 1} 批`;
+      const note = BATCH_NOTES[index] || {};
+      return {
+        title,
+        subtitle: note.subtitle || "",
+        summary: note.summary || "",
+        highlights: note.highlights || [],
+        outcome: note.outcome || "",
+        words: words.map((word) => ({
+          id: `${title}-${word}`,
+          text: word,
+        })),
+      };
     });
-    state.data = rawData;
+    state.data = { batches };
   } catch (error) {
     els.wordList.innerHTML =
       '<div class="placeholder">无法加载数据，请使用本地服务器打开</div>';

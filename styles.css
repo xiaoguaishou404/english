@@ -170,7 +170,15 @@ body {
       margin-bottom: 6px;
     }
 
-    .batch-card-range {
+    .batch-card-summary {
+      font-size: 12px;
+      color: #4b5563;
+      margin-bottom: 10px;
+      line-height: 1.4;
+      min-height: 34px;
+    }
+
+    .batch-card-meta {
       font-size: 12px;
       color: #6b7280;
       margin-bottom: 10px;
@@ -204,7 +212,18 @@ body {
         font-size: 13px;
       }
 
-      .batch-description {
+      .batch-subtitle {
+        margin-top: 8px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #111827;
+
+        &:empty {
+          display: none;
+        }
+      }
+
+      .batch-summary {
         margin-top: 8px;
         font-size: 13px;
         color: #374151;
@@ -214,14 +233,31 @@ body {
         }
       }
 
-      .batch-milestone {
+      .batch-highlights {
+        margin-top: 10px;
+        padding-left: 18px;
+        color: #374151;
+        font-size: 13px;
+        display: grid;
+        gap: 6px;
+
+        &:empty {
+          display: none;
+        }
+
+        li::marker {
+          color: #2563eb;
+        }
+      }
+
+      .batch-outcome {
         font-size: 12px;
-        color: #059669;
-        background: #ecfdf5;
-        padding: 4px 10px;
-        border-radius: 6px;
+        color: #1d4ed8;
+        background: #eff6ff;
+        padding: 6px 10px;
+        border-radius: 8px;
         display: inline-block;
-        margin-top: 6px;
+        margin-top: 10px;
 
         &:empty {
           display: none;
