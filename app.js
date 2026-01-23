@@ -400,10 +400,14 @@ const init = async () => {
 
   renderOverallProgress();
   setFilterActive();
-  renderBatchList();
 
-  if (state.selectedBatchId) {
-    renderBatchDetail();
+  if (!state.selectedBatchId && state.data?.batches.length > 0) {
+    setSelectedBatch(state.data.batches[0].title);
+  } else {
+    renderBatchList();
+    if (state.selectedBatchId) {
+      renderBatchDetail();
+    }
   }
 
   bindEvents();
