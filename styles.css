@@ -298,15 +298,22 @@ body {
     border-radius: 10px;
     border: 1px solid #e5e7eb;
     text-align: left;
+    user-select: text; /* 允许选择文本 */
 
     &.is-active {
       border-color: #2563eb;
       background: #eff6ff;
     }
 
+    &:focus-visible {
+      outline: 2px solid #2563eb;
+      outline-offset: -2px;
+    }
+
     .word-text {
       font-weight: 600;
       min-width: 120px;
+      user-select: text; /* 允许文本选择 */
     }
 
     .word-status {

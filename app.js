@@ -249,8 +249,9 @@ const renderBatchDetail = () => {
     filteredWords.forEach((word) => {
       const isKnown = state.progressByWordId[word.id]?.status === "known";
       const hasNote = Boolean(state.notesByWordId[word.id]?.content?.trim());
-      const item = document.createElement("button");
+      const item = document.createElement("div");
       item.className = "word-item";
+      item.tabIndex = 0; // 使其可聚焦，保持键盘访问性
       item.dataset.wordId = word.id;
       item.innerHTML = `
         <span class="word-text">${word.text}</span>
@@ -304,18 +305,21 @@ const setSelectedBatch = (batchId) => {
 };
 
 const setSelectedWord = (wordId) => {
+  if (state.selectedWordId === wordId) return;
   state.selectedWordId = wordId;
   saveLastVisited();
   renderBatchDetail();
 };
 
-const toggleKnown = () => {
-  if (!state.selectedWordId) return;
-  const current = state.progressByWordId[state.selectedWordId];
+const toggleKnown = (wordId) => {
+  const targetWordId = wordId || state.selectedWordId;
+  if (!targetWordId) return;
+
+  const current = state.progressByWordId[targetWordId];
   if (current?.status === "known") {
-    delete state.progressByWordId[state.selectedWordId];
+    delete state.progressByWordId[targetWordId];
   } else {
-    state.progressByWordId[state.selectedWordId] = {
+    state.progressByWordId[targetWordId] = {
       status: "known",
       updatedAt: Date.now(),
     };
@@ -351,6 +355,13 @@ const bindEvents = () => {
     const target = event.target.closest(".word-item");
     if (!target) return;
     setSelectedWord(target.dataset.wordId);
+  });
+
+  els.wordList.addEventListener("contextmenu", (event) => {
+    const target = event.target.closest(".word-item");
+    if (!target) return;
+    event.preventDefault();
+    toggleKnown(target.dataset.wordId);
   });
 
   els.filters.addEventListener("click", (event) => {
