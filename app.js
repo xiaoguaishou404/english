@@ -102,11 +102,6 @@ const els = {
   batchOutcome: document.getElementById("batchOutcome"),
   overallProgress: document.getElementById("overallProgress"),
   filters: document.getElementById("filters"),
-  wordPanel: document.getElementById("wordPanel"),
-  wordText: document.getElementById("wordText"),
-  wordBatch: document.getElementById("wordBatch"),
-  toggleKnownBtn: document.getElementById("toggleKnownBtn"),
-  wordNote: document.getElementById("wordNote"),
 };
 
 const loadStorage = (key, fallback) => {
@@ -211,7 +206,6 @@ const renderBatchDetail = () => {
     els.batchOutcome.textContent = "";
     els.wordList.innerHTML =
       '<div class="placeholder">请选择批次后查看词表</div>';
-    renderWordPanel(null);
     return;
   }
 
@@ -248,66 +242,37 @@ const renderBatchDetail = () => {
   } else {
     filteredWords.forEach((word) => {
       const isKnown = state.progressByWordId[word.id]?.status === "known";
-      const hasNote = Boolean(state.notesByWordId[word.id]?.content?.trim());
+      const noteContent = state.notesByWordId[word.id]?.content || "";
       const item = document.createElement("div");
       item.className = "word-item";
-      item.tabIndex = 0; // 使其可聚焦，保持键盘访问性
+      item.tabIndex = 0; 
       item.dataset.wordId = word.id;
       item.innerHTML = `
-        <span class="word-text">${word.text}</span>
-        <span class="word-status ${isKnown ? "is-known" : "is-unknown"}">
-          ${isKnown ? "已掌握" : "未掌握"}
-        </span>
-        <span class="word-note ${hasNote ? "has-note" : ""}">
-          ${hasNote ? "有备注" : ""}
-        </span>
+        <div class="word-info">
+          <span class="word-text">${word.text}</span>
+          <span class="word-status ${isKnown ? "is-known" : "is-unknown"}">
+            ${isKnown ? "已掌握" : "未掌握"}
+          </span>
+        </div>
+        <div class="word-note-container">
+          <span class="word-note-display">${noteContent}</span>
+          <input 
+            type="text"
+            class="word-note-input" 
+            placeholder="添加备注..."
+            value="${noteContent}"
+          />
+        </div>
       `;
-      if (word.id === state.selectedWordId) {
-        item.classList.add("is-active");
-      }
       els.wordList.appendChild(item);
     });
   }
-
-  const selectedWord =
-    batch.words.find((word) => word.id === state.selectedWordId) || null;
-  renderWordPanel(selectedWord);
-};
-
-const renderWordPanel = (word) => {
-  const empty = els.wordPanel.querySelector(".panel-empty");
-  const content = els.wordPanel.querySelector(".panel-content");
-  if (!word) {
-    empty.classList.remove("is-hidden");
-    content.classList.add("is-hidden");
-    return;
-  }
-
-  empty.classList.add("is-hidden");
-  content.classList.remove("is-hidden");
-  els.wordText.textContent = word.text;
-  const batch = getBatchById(state.selectedBatchId);
-  els.wordBatch.textContent = batch ? batch.title : "—";
-
-  const isKnown = state.progressByWordId[word.id]?.status === "known";
-  els.toggleKnownBtn.textContent = isKnown ? "取消已掌握" : "标记已掌握";
-  els.wordNote.value = state.notesByWordId[word.id]?.content || "";
 };
 
 const setSelectedBatch = (batchId) => {
   state.selectedBatchId = batchId;
-  const batch = getBatchById(batchId);
-  const firstWord = batch?.words[0];
-  state.selectedWordId = firstWord ? firstWord.id : null;
   saveLastVisited();
   renderBatchList();
-  renderBatchDetail();
-};
-
-const setSelectedWord = (wordId) => {
-  if (state.selectedWordId === wordId) return;
-  state.selectedWordId = wordId;
-  saveLastVisited();
   renderBatchDetail();
 };
 
@@ -330,18 +295,17 @@ const toggleKnown = (wordId) => {
   renderOverallProgress();
 };
 
-const updateNote = (value) => {
-  if (!state.selectedWordId) return;
+const updateNote = (wordId, value) => {
+  if (!wordId) return;
   if (!value.trim()) {
-    delete state.notesByWordId[state.selectedWordId];
+    delete state.notesByWordId[wordId];
   } else {
-    state.notesByWordId[state.selectedWordId] = {
+    state.notesByWordId[wordId] = {
       content: value,
       updatedAt: Date.now(),
     };
   }
   saveStorage(STORAGE_KEYS.notes, state.notesByWordId);
-  renderBatchDetail();
 };
 
 const bindEvents = () => {
@@ -351,17 +315,29 @@ const bindEvents = () => {
     setSelectedBatch(target.dataset.batchId);
   });
 
-  els.wordList.addEventListener("click", (event) => {
-    const target = event.target.closest(".word-item");
-    if (!target) return;
-    setSelectedWord(target.dataset.wordId);
-  });
-
   els.wordList.addEventListener("contextmenu", (event) => {
     const target = event.target.closest(".word-item");
     if (!target) return;
+    // 如果是在输入框内部右键，允许显示默认菜单
+    if (event.target.tagName === "INPUT") return;
+    
     event.preventDefault();
     toggleKnown(target.dataset.wordId);
+  });
+
+  els.wordList.addEventListener("input", (event) => {
+    if (event.target.classList.contains("word-note-input")) {
+      const wordItem = event.target.closest(".word-item");
+      if (wordItem) {
+        const wordId = wordItem.dataset.wordId;
+        const value = event.target.value;
+        updateNote(wordId, value);
+        
+        // 同步更新显示文本
+        const display = wordItem.querySelector(".word-note-display");
+        if (display) display.textContent = value;
+      }
+    }
   });
 
   els.filters.addEventListener("click", (event) => {
@@ -371,12 +347,6 @@ const bindEvents = () => {
     setFilterActive();
     saveLastVisited();
     renderBatchDetail();
-  });
-
-  els.toggleKnownBtn.addEventListener("click", toggleKnown);
-
-  els.wordNote.addEventListener("input", (event) => {
-    updateNote(event.target.value);
   });
 };
 

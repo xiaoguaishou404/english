@@ -278,42 +278,53 @@ body {
   }
 
   .detail-content {
-    display: grid;
+    display: block;
     gap: 20px;
-    grid-template-columns: 2fr 1fr;
   }
 }
 
 .word-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   padding-right: 6px;
 
   & .word-item {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 10px;
-    padding: 10px 12px;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 16px;
     border-radius: 10px;
     border: 1px solid #e5e7eb;
     text-align: left;
-    user-select: text; /* 允许选择文本 */
+    user-select: text;
+    transition: all 0.2s ease;
+    background: #ffffff;
+
+    .word-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
 
     &.is-active {
       border-color: #2563eb;
       background: #eff6ff;
     }
 
-    &:focus-visible {
-      outline: 2px solid #2563eb;
-      outline-offset: -2px;
+    &:focus-within {
+      border-color: #2563eb;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
     }
 
     .word-text {
       font-weight: 600;
-      min-width: 120px;
-      user-select: text; /* 允许文本选择 */
+      font-size: 16px;
+      user-select: text;
+      min-width: 100px;
     }
 
     .word-status {
@@ -322,6 +333,7 @@ body {
       border-radius: 999px;
       background: #f3f4f6;
       color: #6b7280;
+      font-weight: 500;
 
       &.is-known {
         background: #dcfce7;
@@ -329,58 +341,63 @@ body {
       }
     }
 
-    .word-note {
-      font-size: 12px;
-      color: #f97316;
-      margin-left: auto;
+    .word-note-container {
+      flex: 1;
+      max-width: 600px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      min-width: 0; /* 允许收缩 */
+    }
 
-      &.has-note {
-        font-weight: 600;
+    .word-note-display {
+      font-size: 13px;
+      color: #9ca3af;
+      font-style: italic;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: text;
+      padding: 6px 0;
+    }
+
+    .word-note-input {
+      display: none; /* 默认隐藏输入框 */
+      flex: 1;
+      max-width: 600px;
+      border-radius: 6px;
+      border: 1px solid #e5e7eb;
+      padding: 6px 12px;
+      font-family: inherit;
+      font-size: 13px;
+      height: 32px;
+      background: #f9fafb;
+      transition: all 0.2s ease;
+
+      &:focus {
+        outline: none;
+        border-color: #2563eb;
+        background: #ffffff;
+      }
+
+      &::placeholder {
+        color: #9ca3af;
       }
     }
-  }
-}
 
-.word-panel {
-  border-left: 1px solid #e5e7eb;
-  padding-left: 20px;
-  min-height: 240px;
+    &:focus-within {
+      border-color: #2563eb;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+      background: #ffffff;
 
-  .panel-empty {
-    color: #9ca3af;
-  }
+      .word-note-display {
+        display: none; /* 聚焦时隐藏文本 */
+      }
 
-  .panel-content {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-
-    &.is-hidden {
-      display: none;
+      .word-note-input {
+        display: block; /* 聚焦时显示输入框 */
+      }
     }
-  }
-
-  h3 {
-    font-size: 22px;
-  }
-
-  .panel-meta {
-    color: #6b7280;
-    font-size: 12px;
-  }
-
-  .note-label {
-    font-size: 12px;
-    color: #6b7280;
-  }
-
-  textarea {
-    width: 100%;
-    border-radius: 10px;
-    border: 1px solid #e5e7eb;
-    padding: 10px;
-    font-family: inherit;
-    resize: vertical;
   }
 }
 
@@ -401,13 +418,6 @@ body {
     .detail-content {
       grid-template-columns: 1fr;
     }
-  }
-
-  .word-panel {
-    border-left: none;
-    padding-left: 0;
-    border-top: 1px solid #e5e7eb;
-    padding-top: 20px;
   }
 }
 
