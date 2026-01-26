@@ -194,6 +194,52 @@ const applyWordFilter = (word) => {
   return true;
 };
 
+const recordInteraction = (wordId) => {
+  if (!wordId) return;
+  const current = state.progressByWordId[wordId] || {
+    status: "unknown",
+    interactCount: 0,
+    lastInteractAt: Date.now(),
+  };
+  state.progressByWordId[wordId] = {
+    ...current,
+    interactCount: (current.interactCount || 0) + 1,
+    lastInteractAt: Date.now(),
+    updatedAt: Date.now(),
+  };
+  saveStorage(STORAGE_KEYS.progress, state.progressByWordId);
+  renderBatchDetail();
+};
+
+const calculateWordSizeClass = (wordId) => {
+  const progress = state.progressByWordId[wordId];
+  if (progress?.status === "known") return "unit-1";
+
+  // 初始权重设为 100
+  const interactCount = progress?.interactCount || 0;
+  const lastInteractAt = progress?.lastInteractAt || Date.now();
+
+  // 时间衰减逻辑：每 24 小时不点击，权重增加 25 (稍微加快变大速度)
+  const daysSinceLastInteract =
+    (Date.now() - lastInteractAt) / (1000 * 60 * 60 * 24);
+  
+  // 基础 100，点击一次减 20，每天不点击加 25
+  let score = 100 - interactCount * 20 + daysSinceLastInteract * 25;
+
+  // 映射分数到更丰富的类名
+  if (score <= 45) return "unit-1";
+  if (score <= 70) return "unit2-col";
+  if (score <= 95) return "unit2-row";
+  if (score <= 125) return "unit-2";
+  if (score <= 150) return "unit3-col";
+  if (score <= 175) return "unit3-row";
+  if (score <= 200) return "unit3-rect";
+  if (score <= 230) return "unit3-rect-v";
+  if (score <= 260) return "unit-3";
+  if (score <= 300) return "unit-4";
+  return "unit-full";
+};
+
 const renderBatchDetail = () => {
   const batch = getBatchById(state.selectedBatchId);
   if (!batch) {
@@ -242,10 +288,11 @@ const renderBatchDetail = () => {
   } else {
     filteredWords.forEach((word) => {
       const isKnown = state.progressByWordId[word.id]?.status === "known";
+      const sizeClass = calculateWordSizeClass(word.id);
       const noteContent = state.notesByWordId[word.id]?.content || "";
       const item = document.createElement("div");
-      item.className = "word-item";
-      item.tabIndex = 0; 
+      item.className = `word-item ${sizeClass} ${isKnown ? "is-known" : ""}`;
+      item.tabIndex = 0;
       item.dataset.wordId = word.id;
       item.innerHTML = `
         <div class="word-info">
@@ -280,11 +327,20 @@ const toggleKnown = (wordId) => {
   const targetWordId = wordId || state.selectedWordId;
   if (!targetWordId) return;
 
-  const current = state.progressByWordId[targetWordId];
-  if (current?.status === "known") {
-    delete state.progressByWordId[targetWordId];
+  const current = state.progressByWordId[targetWordId] || {
+    interactCount: 0,
+    lastInteractAt: Date.now(),
+  };
+
+  if (current.status === "known") {
+    state.progressByWordId[targetWordId] = {
+      ...current,
+      status: "unknown",
+      updatedAt: Date.now(),
+    };
   } else {
     state.progressByWordId[targetWordId] = {
+      ...current,
       status: "known",
       updatedAt: Date.now(),
     };
@@ -313,6 +369,16 @@ const bindEvents = () => {
     const target = event.target.closest(".batch-card");
     if (!target) return;
     setSelectedBatch(target.dataset.batchId);
+  });
+
+  els.wordList.addEventListener("click", (event) => {
+    const target = event.target.closest(".word-item");
+    if (!target) return;
+
+    // 如果点击的是输入框，不记录交互
+    if (event.target.tagName === "INPUT") return;
+
+    recordInteraction(target.dataset.wordId);
   });
 
   els.wordList.addEventListener("contextmenu", (event) => {
