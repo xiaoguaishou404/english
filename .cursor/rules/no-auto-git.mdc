@@ -1,0 +1,26 @@
+---
+description: "禁止 Cursor Agent 自动执行 Git 提交"
+alwaysApply: true
+---
+
+# Git 操作规则
+
+## Git 作者配置
+
+执行任何 git 操作前，必须先设置作者信息：
+```
+git config user.name "sls"
+git config user.email "1fo_njeighrt9d@dingtalk.com"
+```
+确保所有 commit 的作者显示为 sls。
+
+## 不要自动提交代码
+
+- **禁止**在未获得用户明确许可的情况下自动执行 `git commit`
+- **禁止**在未获得用户明确许可的情况下自动执行 `git push`
+- 完成任务后，仅修改代码并汇报修改内容
+- 由用户自行决定是否提交、何时提交
+
+## 例外情况
+
+当用户在对话中**明确要求**"提交代码"、"push 一下"或类似指令时，才可以执行 git commit 和 push。
